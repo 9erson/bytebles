@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "1376f51f31f71dac",
+    "type": "split",
+    "children": [
+      {
+        "id": "63aecae2afe681fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c83afe264c184fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21e0f6dc6eae813f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "courses/First Byte at Python/Curriculum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc8d64a906c7ab09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "944efbe3d244a2d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c34b53d8734d75d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8fbef25214a328d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4aa1b40321206ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7afc5477f3bf056c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "88349a4ceb499007",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbced168ecb20943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b52241bd76cf52a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c8d4151eb8473c04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "889012524e7c26b4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0a014cb91126ac53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md"
+              }
+            }
+          },
+          {
+            "id": "36d6c280bd301caa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "b8fbef25214a328d",
+  "lastOpenFiles": [
+    "courses/First Byte at Python/Curriculum.md",
+    "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+    "README.md",
+    "courses/First Byte at Python",
+    "courses"
+  ]
+}
