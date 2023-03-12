@@ -1,0 +1,40 @@
+{
+  "aestheticStyle": "default",
+  "menuCommands": [
+    {
+      "id": "editor:set-heading-1",
+      "name": "Set as heading 1",
+      "icon": "heading-glyph"
+    },
+    {
+      "id": "editor:set-heading-2",
+      "name": "Set as heading 2",
+      "icon": "heading-glyph"
+    },
+    {
+      "id": "editor:set-heading-3",
+      "name": "Set as heading 3",
+      "icon": "heading-glyph"
+    },
+    {
+      "id": "cmenu-plugin:codeblock",
+      "name": "cMenu: Toggle codeblock",
+      "icon": "codeblock-glyph"
+    },
+    {
+      "id": "editor:toggle-bullet-list",
+      "name": "Toggle bullet list",
+      "icon": "lucide-list"
+    },
+    {
+      "id": "slides:start",
+      "name": "Slides: Start presentation",
+      "icon": "lucide-monitor"
+    }
+  ],
+  "appendMethod": "workspace",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 4.25,
+  "cMenuNumRows": 9
+}
