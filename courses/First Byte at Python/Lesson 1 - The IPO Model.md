@@ -2,25 +2,20 @@
 
 Welcome to the Introduction to Python course, where we will discuss the IPO model and its application to programming. The IPO model is a fundamental concept in programming that describes the flow of data within a program. The model consists of three main components: Input, Processing, and Output. In this lesson, we will discuss these components and their implementation in Python.
 
-```ad-info
-**Program:**
+>[!info] Program
+> A set of instructions written in a programming language that a computer can interpret and execute to perform a specific task or solve a problem.
 
-A set of instructions written in a programming language that a computer can interpret and execute to perform a specific task or solve a problem.
-```
 
 # IPO Model - Input, Processing, Output
 
 The IPO model describes the flow of data within a program. The input component involves receiving data or information from external sources, such as user input, files, or databases, and storing it in variables for processing. Processing involves performing operations on the input data to produce an output, such as calculations, data manipulation, or running algorithms. Output involves returning the processed data to the user or saving it to an external source, such as a file or database.
 
-```ad-info
-**Database:** 
+>[!info] Database
+> A structured collection of data that is stored and organized in a way that allows efficient retrieval and manipulation of the data.
 
-A structured collection of data that is stored and organized in a way that allows efficient retrieval and manipulation of the data.
+>[!info] User input
+> Any data or information entered by the user of a program or system that is used as input for processing. Examples of user input include mouse clicks, keyboard entries, and touchscreen gestures. For now, we will only be looking at keyboard entries as user input.
 
-**User input:**
-
-Any data or information entered by the user of a program or system that is used as input for processing. Examples of user input include mouse clicks, keyboard entries, and touchscreen gestures. For now, we will only be looking at keyboard entries as user input.
-```
 
 ```mermaid
 graph LR
