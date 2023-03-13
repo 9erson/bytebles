@@ -27,7 +27,7 @@ The course is divided into 8 lessons, each lasting an hour and a half.After each
 
 # Course Communication
 
-- We'll use Microsoft Teams for our lessons.
+- We'll use [[How to Install Microsoft Teams on Windows and Mac|Microsoft Teams|]] for our lessons.
 - Every Monday, I'll email you with a link to the Teams session and a handout for the upcoming lesson as a PDF.
 - I encourage you to read through and attempt the examples and exercises before the class.
 - This will give you a chance to prepare questions that I can address during class.
