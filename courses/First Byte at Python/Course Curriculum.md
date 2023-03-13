@@ -4,7 +4,8 @@ I'm excited to have you join me on this journey of learning Python! Here are som
 
 # Requirements
 
-You'll need a desktop computer with either Windows or Mac operating system to participate in the course.I'll be using Thonny as the editor, which is free and available for all desktop platforms, including Windows, Mac, and Linux.
+- You'll need a desktop computer with either Windows or Mac operating system to participate in the course.
+- I'll be using [[How to install Thonny|Thonny]] as the coding editor for Python during this course, which is free and available for all desktop platforms, including Windows, Mac, and Linux.
 
 # Course Preparation
 
