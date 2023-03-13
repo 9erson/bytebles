@@ -71,6 +71,12 @@ print(not x > y)        # Output: False
 
 Conditional statements are used to execute different blocks of code based on whether a condition is true or false. In Python, we use if, elif, and else statements to create conditional statements.
 
+```ad-info
+**Statement:**
+
+In Python, a statement is a line of code that performs a specific action. A statement can be a simple expression or a complex block of code, and it can perform various operations, such as assigning values to variables, executing loops, or making decisions based on conditions.
+```
+
 ### If
 Here's the syntax for an if statement:
 

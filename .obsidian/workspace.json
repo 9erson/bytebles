@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Booleans.md",
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Booleans.md",
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Booleans.md",
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Booleans.md"
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md"
               }
             }
           },
@@ -190,10 +190,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a014cb91126ac53",
+  "active": "6c83afe264c184fd",
   "lastOpenFiles": [
-    "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+    "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "courses/First Byte at Python/Lesson 3 - Booleans.md",
     "README.md",
     "courses/First Byte at Python/Curriculum.md",
