@@ -136,7 +136,6 @@ Write a Python program that asks the user to enter a number, and checks whether 
 ### The Modulo Operator
 To check whether a number is even or odd, you can use the modulo operator %. The modulo operator returns the remainder of a division operation. If a number is even, it will have no remainder when divided by 2. If a number is odd, it will have a remainder of 1 when divided by 2. Here's an example of using the modulo operator:
 
-
 ```python
 number = 10
 
