@@ -145,6 +145,20 @@ else:
     print("The number is odd.")
 ```
 
+## Age-Based Life Stage Classifier
+
+Write a Python program that asks the user for their age and prints out their corresponding life stage based on the following criteria:
+
+- If the age is between 0 and 2 (inclusive), print "Infant"
+- If the age is between 3 and 4 (inclusive), print "Toddler"
+- If the age is between 5 and 12 (inclusive), print "Child"
+- If the age is between 13 and 17 (inclusive), print "Teenager"
+- If the age is 18 or older, print "Adult"
+
+```ad-info
+In this context, "inclusive" means that the age values being checked in the code are considered part of the corresponding life stage. For example, if the age is 2, the code will print "Infant" because the age of 2 is included in the range of ages defined for the "Infant" life stage (0-2 years old). Similarly, if the age is 4, the code will print "Toddler" because the age of 4 is included in the range of ages defined for the "Toddler" life stage (3-4 years old). If the code were not inclusive, it would not consider the upper limit of the range as part of the corresponding life stage and would exclude some individuals who fall within that range.
+```
+
 # Summary
 
 In this lesson, we covered the boolean data type, comparison operators, logical operators, and conditional statements in Python.
