@@ -49,11 +49,8 @@ Logical operators are used to combine boolean values and return a boolean value.
 | or       | Returns True if at least one operand is True |
 | not      | Returns True if the operand is False                                             |
 
-```ad-info
-**Operand:**
-
-In computer programming, an operand is a value or expression on which a mathematical, logical or bitwise operation is performed. In other words, it's an input to an operator that is used to produce a result. For example, in the expression `5 + 7`, the operands are `5` and `7`, and the operator is `+`. Similarly, in the expression `x > 10`, the operand is `x`, and the operator is `>`. In general, operands can be constants, variables, or expressions that evaluate to a value.
-```
+>[!info] Operand
+>In computer programming, an operand is a value or expression on which a mathematical, logical or bitwise operation is performed. In other words, it's an input to an operator that is used to produce a result. For example, in the expression `5 + 7`, the operands are `5` and `7`, and the operator is `+`. Similarly, in the expression `x > 10`, the operand is `x`, and the operator is `>`. In general, operands can be constants, variables, or expressions that evaluate to a value.
 
 Here's an example of using logical operators:
 
@@ -71,11 +68,9 @@ print(not x > y)        # Output: False
 
 Conditional statements are used to execute different blocks of code based on whether a condition is true or false. In Python, we use if, elif, and else statements to create conditional statements.
 
-```ad-info
-**Statement:**
+>[!info] Statement:
+>In Python, a statement is a line of code that performs a specific action. A statement can be a simple expression or a complex block of code, and it can perform various operations, such as assigning values to variables, executing loops, or making decisions based on conditions.
 
-In Python, a statement is a line of code that performs a specific action. A statement can be a simple expression or a complex block of code, and it can perform various operations, such as assigning values to variables, executing loops, or making decisions based on conditions.
-```
 
 ### If
 Here's the syntax for an if statement:
@@ -155,9 +150,9 @@ Write a Python program that asks the user for their age and prints out their cor
 - If the age is between 13 and 17 (inclusive), print "Teenager"
 - If the age is 18 or older, print "Adult"
 
-```ad-info
-**Inclusive** refers to the property of encompassing the endpoint values of a given range or category. For example, in the code provided, the age ranges are defined as inclusive, meaning that if an age falls on the upper or lower end of a given range, it will be classified as belonging to the corresponding life stage.
-```
+> [!info] Inclusive
+> Inclusive refers to the property of encompassing the endpoint values of a given range or category. For example, in the code provided, the age ranges are defined as inclusive, meaning that if an age falls on the upper or lower end of a given range, it will be classified as belonging to the corresponding life stage.
+
 
 # Summary
 
