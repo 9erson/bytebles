@@ -17,14 +17,15 @@ The course is divided into 8 lessons, each lasting an hour and a half.After each
 
 ## Lessons
 
--   [[Lesson 1 - The IPO Model]]
--   [[Lesson 2 - Data Types]]
--   [[Lesson 3 - Decisions]]
--   [[Lesson 4 - Loops]]
--   [[Lesson 5 - Lists]]
--   [[Lesson 6 - Functions]]
--   [[Lesson 7 - Modules]]
--   [[Lesson 8 - Final Project]]
+- [[Lesson 1 - The IPO Model]]
+- [[Lesson 2 - Data Types]]
+- [[Lesson 3 - Decisions]]
+- [[Lesson 4 - Loops]]
+- [[Lesson 5 - Lists]]
+- [[Lesson 6 - Functions]]
+- [[Lesson 7 - Modules]]
+- [[Lesson 8 - Final Project]]
+- [[Answer Key]]
 
 # Course Communication
 
