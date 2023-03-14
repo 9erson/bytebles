@@ -1,6 +1,11 @@
 # Introduction
 
-In programming, a data type is an attribute of data which tells the compiler or interpreter how the programmer intends to use the data. In Python, data types are used to define the type of value that a variable can hold. In this lesson, we will explore the different data types available in Python, including strings, integers, and floats. We will also learn about type casting, which is the process of converting a value of one data type to another.
+A data type is an attribute of data that tells the compiler or interpreter how the programmer plans to use it. In Python, data types tell you what kind of value a variable can have. In this lesson, we'll look at the different types of data that Python offers, such as strings, integers, and floats. We will also learn about type casting, which is how to change a value from one type of data to another.
+
+```ad-info
+Compiler
+
+```
 
 # Common Data Types
 
@@ -10,13 +15,6 @@ In Python, a string is a sequence of characters. Strings are used to represent t
 
 ```python
 my_string = 'Hello, World!'
-```
-
-Strings can be indexed and sliced like lists, and have several built-in methods for manipulating text. For example, we can use the upper() method to convert all characters in a string to uppercase:
-
-```python
-my_string = 'hello, world!'
-print(my_string.upper()) # Output: 'HELLO, WORLD!'
 ```
 
 ## Integers
