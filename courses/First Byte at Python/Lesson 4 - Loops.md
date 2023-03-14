@@ -1,6 +1,6 @@
 # Introduction
 
-Loops are an essential tool in programming that allow us to execute a block of code repeatedly. Without loops, we would have to manually repeat the same code multiple times in order to achieve the same result. For example, in a user authentication system, we might have to check the user's credentials multiple times until they are authenticated. Without loops, this would require us to write the same code multiple times, which can be inefficient and error-prone.
+Loops are an essential tool in programming that allow us to execute a block of code repeatedly. Without loops, we would have to manually repeat the same code multiple times to achieve the same result. For example, in a user authentication system, we might have to check the user's credentials multiple times until they are authenticated. Without loops, this would require us to write the same code multiple times, which can be inefficient and error-prone.
 
 Here's an example of what the code for user authentication might look like without using loops:
 
@@ -35,7 +35,7 @@ if not authenticated:
         
 # continue repeating the same code until the user is authenticated
 ```
-
+``
 As you can see, the code becomes increasingly complex and repetitive as we add more checks for user authentication. This is where loops become a valuable tool, allowing us to automate the repetitive task of checking user credentials and reducing the likelihood of errors in the code.
 
 # What are loops?
@@ -64,10 +64,10 @@ while count <= 10:
     count += 1
 ```
 
-In this example, the count variable is initialized to 1, and the while loop continues to execute as long as count is less than or equal to 10. Inside the loop, the current value of count is printed, and then count is incremented by 1. This process repeats until count is greater than 10, at which point the loop exits.
+In this example, the `count` variable is initialized to 1, and the while loop continues to execute as long as `count` is less than or equal to 10. Inside the loop, the current value of count is printed, and then count is incremented by 1. This process repeats until `count` is greater than 10, at which point the loop exits.
 
 # User Authentication
-Let's see how we can solve the user authencation scenario we looked at at the beginning of the lesson through loops.
+Let's see how we can solve the user authentication scenario we were introduced to,  at the beginning of the lesson through loops.
 
 ```python
 username = "johndoe"
