@@ -64,26 +64,10 @@ my_integer = 42
 my_float = float(my_integer)
 ```
 
-# Exercise
+# Exercises
 
-Write a Python program that prompts the user to enter a weight in kilograms, and converts it to pounds. The conversion factor is 2.205 pounds per kilogram.
-Write a Python program that prompts the user to enter a temperature in Celsius, and converts it to Fahrenheit. The conversion formula is `F = C * 1.8 + 32`.
-
-## Example Output
-
-### Example of exercise 1
-
-```
-Enter weight in kilograms: 60
-60 kilograms is equal to 132.277 pounds.
-```
-
-### Example of exercise 2
-
-```
-Enter temperature in Celsius: 25
-25 degrees Celsius is equal to 77 degrees Fahrenheit.
-```
+1. Write a Python program that prompts the user to enter a weight in kilograms, and converts it to pounds. The conversion factor is 2.205 pounds per kilogram.
+2. Write a Python program that prompts the user to enter a temperature in Celsius, and converts it to Fahrenheit. The conversion formula is `F = C * 1.8 + 32`.
 
 # Summary
 
