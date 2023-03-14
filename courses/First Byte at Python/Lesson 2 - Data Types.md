@@ -41,23 +41,35 @@ Floats can also be used in mathematical operations, and can be converted to inte
 
 # Type Casting
 
-In Python, type casting is the process of converting a value of one data type to another. This can be useful when we need to perform operations on values of different types. Here are some examples:
+Type casting is a process of converting a value from one data type to another in Python. It can be helpful when we need to perform operations on values of different types.
 
-## Convert a string to an integer
+Here are some examples:
+
+- Convert an integer or float to a string using the `str()` function:
+
+```python
+my_integer = 42
+my_float = 3.14
+
+my_integer_str = str(my_integer)
+my_float_str = str(my_float)
+```
+
+- Convert a string to an integer using the `int()` function:
 
 ```python
 my_string = '42'
 my_integer = int(my_string)
 ```
 
-## Convert a float to an integer
+- Convert a float to an integer using the `int()` function:
 
 ```python
 my_float = 3.14
 my_integer = int(my_float)
 ```
 
-## Convert an integer to a float
+- Convert an integer to a float using the `float()` function:
 
 ```python
 my_integer = 42
