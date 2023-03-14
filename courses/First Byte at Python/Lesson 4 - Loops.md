@@ -36,11 +36,11 @@ if not authenticated:
 # continue repeating the same code until the user is authenticated
 ```
 ``
-As you can see, the code becomes increasingly complex and repetitive as we add more checks for user authentication. This is where loops become a valuable tool, allowing us to automate the repetitive task of checking user credentials and reducing the likelihood of errors in the code.
+As you can see, as we add more checks for user authentication, the code gets more complicated and repeats itself. This is where loops are very helpful because they let us automate the repetitive task of checking user credentials and make it less likely that there will be mistakes in the code.
 
 # What are loops?
 
-In programming, loops are used to repeat a set of instructions until a certain condition is met. Loops are essential for automating repetitive tasks and can help you write more efficient and effective code.
+In computer programming, loops are structures that let a set of instructions be repeated over and over again until a certain condition is met. Loops are an important part of automating tasks that are done over and over again, and they can help you write code that works better and faster.
 
 # The while loop
 
