@@ -12,5 +12,6 @@
   "obsidian-linter",
   "obsidian-mind-map",
   "obsidian-git",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "wikilinks-to-mdlinks-obsidian"
 ]
