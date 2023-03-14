@@ -105,6 +105,6 @@ Solve the following problems using the `while` loop:
 5. Find the largest and smallest digit in a given number.
 
 
-# Conclusion
+# Summary
 
 In this lesson, you have learned about loops in programming, the while loop, and an example of how to use a while loop in Python. You have also seen a use case where loops are essential for automating repetitive tasks. With this knowledge, you can begin to write more efficient and effective code.

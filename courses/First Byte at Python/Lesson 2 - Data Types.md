@@ -2,10 +2,11 @@
 
 A data type is an attribute of data that tells the compiler or interpreter how the programmer plans to use it. In Python, data types tell you what kind of value a variable can have. In this lesson, we'll look at the different types of data that Python offers, such as strings, integers, and floats. We will also learn about type casting, which is how to change a value from one type of data to another.
 
-```ad-info
-Compiler
+> [!info] Compiler
+A compiler is a program that translates source code into an executable program. In Python, the compiler translates the source code into a lower-level representation called byte code, which can be executed by the Python virtual machine.
 
-```
+> [!info] Interpreter
+An interpreter is a program that reads and executes code line-by-line, without first converting it into an executable form. In Python, the interpreter reads the code line-by-line and executes it immediately.
 
 # Common Data Types
 

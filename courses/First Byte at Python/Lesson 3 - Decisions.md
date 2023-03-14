@@ -1,6 +1,6 @@
 # Introduction
 
-Booleans are a fundamental data type in Python that represent true or false values. They are often used in control flow statements, such as conditional statements, to make decisions based on whether a condition is true or false. In this lesson, we will cover the boolean data type, comparison operators, logical operators, and conditional statements in Python.
+Booleans are the most basic type of data in Python. They show whether a value is true or false. They are often used in control flow statements, like conditional statements, to make decisions based on whether a condition is true or false. In this Python lesson, we will learn about the boolean data type, comparison operators, logical operators, and conditional statements.
 
 # Boolean Data Type
 
@@ -66,9 +66,9 @@ print(not x > y)        # Output: False
 
 ## Conditional Statements
 
-Conditional statements are used to execute different blocks of code based on whether a condition is true or false. In Python, we use if, elif, and else statements to create conditional statements.
+Conditional statements are used to execute different blocks of code based on whether a condition is true or false. In Python, we use `if`, `elif`, and `else` statements to create conditional statements.
 
->[!info] Statement:
+>[!info] Statement
 >In Python, a statement is a line of code that performs a specific action. A statement can be a simple expression or a complex block of code, and it can perform various operations, such as assigning values to variables, executing loops, or making decisions based on conditions.
 
 
@@ -122,33 +122,23 @@ else:
 # x is greater than y
 ```
 
-# Exercise
 
-## Even or Odd
+# Exercises
 
-Write a Python program that asks the user to enter a number, and checks whether the number is even or odd. If the number is even, the program should print "The number is even." If the number is odd, the program should print "The number is odd."
+- Write a Python program that asks the user to enter a number, and checks whether the number is even or odd. If the number is even, the program should print "The number is even." If the number is odd, the program should print "The number is odd."
+  > [!hint] Hint
+  > ### The Modulo Operator
+To check whether a number is even or odd, you can use the modulo operator %. The modulo operator returns the remainder of a division operation. If a number is even, it will have no remainder when divided by 2. If a number is odd, it will have a remainder of 1 when divided by 2. Here are two examples of using the modulo operator:
+> ```python
+10 % 2
+5 % 2
 
-### The Modulo Operator
-To check whether a number is even or odd, you can use the modulo operator %. The modulo operator returns the remainder of a division operation. If a number is even, it will have no remainder when divided by 2. If a number is odd, it will have a remainder of 1 when divided by 2. Here's an example of using the modulo operator:
-
-```python
-number = 10
-
-if number % 2 == 0:
-    print("The number is even.")
-else:
-    print("The number is odd.")
-```
-
-## Age-Based Life Stage Classifier
-
-Write a Python program that asks the user for their age and prints out their corresponding life stage based on the following criteria:
-
-- If the age is between 0 and 2 (inclusive), print "Infant"
-- If the age is between 3 and 4 (inclusive), print "Toddler"
-- If the age is between 5 and 12 (inclusive), print "Child"
-- If the age is between 13 and 17 (inclusive), print "Teenager"
-- If the age is 18 or older, print "Adult"
+- Write a Python program that asks the user for their age and prints out their corresponding life stage based on the following criteria:
+	- If the age is between 0 and 2 (inclusive), print "Infant"
+	- If the age is between 3 and 4 (inclusive), print "Toddler"
+	- If the age is between 5 and 12 (inclusive), print "Child"
+	- If the age is between 13 and 17 (inclusive), print "Teenager"
+	- If the age is 18 or older, print "Adult"
 
 > [!info] Inclusive
 > Inclusive refers to the property of encompassing the endpoint values of a given range or category. For example, in the code provided, the age ranges are defined as inclusive, meaning that if an age falls on the upper or lower end of a given range, it will be classified as belonging to the corresponding life stage.
