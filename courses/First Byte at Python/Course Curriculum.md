@@ -21,9 +21,9 @@ The course is divided into 8 lessons, each lasting an hour and a half.After each
 -   [[Lesson 2 - Data Types]]
 -   [[Lesson 3 - Decisions]]
 -   [[Lesson 4 - Loops]]
--   [[Lesson 5 - Functions]]
--   [[Lesson 6 - Modules]]
--   [[Lesson 7 - Dictionaries]]
+-   [[Lesson 5 - Lists]]
+-   [[Lesson 6 - Functions]]
+-   [[Lesson 7 - Modules]]
 -   [[Lesson 8 - Final Project]]
 
 # Course Communication
