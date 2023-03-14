@@ -67,7 +67,8 @@ while count <= 10:
 In this example, the `count` variable is initialized to 1, and the while loop continues to execute as long as `count` is less than or equal to 10. Inside the loop, the current value of count is printed, and then count is incremented by 1. This process repeats until `count` is greater than 10, at which point the loop exits.
 
 # User Authentication
-Let's see how we can solve the user authentication scenario we were introduced to,  at the beginning of the lesson through loops.
+
+Let's see how loops can help us solve the user authentication problem we were presented with at the beginning of the lesson.
 
 ```python
 username = "johndoe"
