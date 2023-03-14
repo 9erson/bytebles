@@ -1,6 +1,6 @@
 # Introduction
 
-Loops are an essential tool in programming that allow us to execute a block of code repeatedly. Without loops, we would have to manually repeat the same code multiple times to achieve the same result. For example, in a user authentication system, we might have to check the user's credentials multiple times until they are authenticated. Without loops, this would require us to write the same code multiple times, which can be inefficient and error-prone.
+Loops are an important part of programming because they let us run a block of code over and over again. Without loops, we'd have to manually run the same code over and over again to get the same result. For example, in a system for authenticating users, we might have to check the user's credentials more than once before we are sure they are who they say they are. Without loops, we would have to write the same code more than once, which is slow and can lead to mistakes.
 
 Here's an example of what the code for user authentication might look like without using loops:
 
