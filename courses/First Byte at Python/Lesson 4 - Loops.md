@@ -66,7 +66,36 @@ while count <= 10:
 
 In this example, the count variable is initialized to 1, and the while loop continues to execute as long as count is less than or equal to 10. Inside the loop, the current value of count is printed, and then count is incremented by 1. This process repeats until count is greater than 10, at which point the loop exits.
 
+# User Authentication
+Let's see how we can solve the user authencation scenario we looked at at the beginning of the lesson through loops.
+
+```python
+username = "johndoe"
+password = "password123"
+authenticated = False
+
+while not authenticated:
+    input_username = input("Enter your username: ")
+    input_password = input("Enter your password: ")
+    
+    if input_username == username and input_password == password:
+        print("Access granted!")
+        authenticated = True
+    else:
+        print("Access denied. Please try again.")
+```
+
+- We start by defining the correct username and password. 
+- We then use a while loop with a condition that checks whether the user has been authenticated or not. 
+- The authenticated variable is initially set to False. 
+- Inside the loop, we prompt the user to enter their username and password. 
+- We then check whether the input username and password match the correct credentials. 
+	- If they do, we print a success message and set the authenticated variable to True, which will cause the loop to exit in the next iteration. 
+	- If they do not, we print an error message and repeat the loop.
+
 # Exercises
+
+Solve the following problems using the `while` loop:
 
 1. Print all even numbers between two given numbers.
 2. Print the reverse of a given number.
