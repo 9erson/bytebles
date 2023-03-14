@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Course Curriculum.md",
-                "mode": "preview",
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Course Curriculum.md",
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Course Curriculum.md",
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Course Curriculum.md"
+                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model.md"
               }
             }
           },
@@ -180,11 +180,11 @@
   },
   "active": "21e0f6dc6eae813f",
   "lastOpenFiles": [
+    "How to join my class in Teams.md",
+    "How to Install Microsoft Teams on Windows and Mac.md",
     "How to install Thonny.md",
     "courses/First Byte at Python/Course Curriculum.md",
-    "How to join my class in Teams.md",
     "link to the Teams session.md",
-    "How to Install Microsoft Teams on Windows and Mac.md",
     "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
     "Lesson.md",
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
