@@ -311,10 +311,18 @@ while b < 100:
 ```
 
 ### Explanation
-- In this program, we use a third variable `next_term` to store the value of the next term in the sequence, which is the sum of the previous two terms (`a` and `b`).
-- We first initialize `a` to 0 and `b` to 1. 
-	- We then use a `while` loop to print the first 100 terms of the sequence. In each iteration of the loop, we first print the current term (`b`), and then calculate the value of the next term and store it in `next_term`.
-- We then update `a` and `b` to be the last two terms in the sequence, with `a` taking the value of the previous `b`, and `b` taking the value of `next_term`.
+-   Initialize variables `a` to 0 and `b` to 1, the first two terms in the sequence
+-   Initialize a counter variable `count` to 0
+-   Use a `while` loop to print the sequence up to the first term greater than or equal to 100
+-   In each iteration of the loop:
+    -   Check if `b` is less than 100
+    -   If it is, print `b` and calculate the next term in the sequence (`a + b`) and store it in `next_term`
+    -   Update `a` to be the last term (`b`) and `b` to be the next term (`next_term`)
+    -   Increment the counter variable `count` by 1
+-   When `b` becomes greater than or equal to 100, the loop terminates and the program ends
+
+### Challenges
+
 
 # Exercises
 
