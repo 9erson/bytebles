@@ -160,7 +160,7 @@ while not authenticated:
 	- If they do not, we print an error message and repeat the loop.
 
 ### Challenges
-1. To keep track of whether the user is authenticated or not, use the variable named unauthorized instead of authenticated. Print the message "Access granted!" only if the user enters the correct username and password.
+1. To keep track of whether the user is authenticated or not, use the variable named `unauthorized` instead of `authenticated`. Print the message "Access granted!" only if `unauthorized` is `False` i.e. the user has entered the correct username and password.
 2. Modify the previous code to follow the conditions below:
 	1. If the username and/or password is incorrect, show the message "Unknown user {input_username}", substituting {input_username} with the actual username provided by the user.
 	2. If the username is correct (i.e., "johndoe"), but the password is incorrect, show the message "Incorrect password for user {input_username}", substituting {input_username} with the actual username provided by the user (which, in this case, will always be "johndoe").
@@ -211,7 +211,7 @@ Each challenge builds upon the previous and should be done in order.
 
 
 # Exercises
-1. Print all even numbers between two given numbers.
+
 2. Print the reverse of a given number.
 3. Generate a Fibonacci sequence up to a given number.
 4. Count the number of digits in a given number.
