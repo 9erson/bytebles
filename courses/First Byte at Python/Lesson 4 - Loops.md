@@ -210,13 +210,11 @@ Each challenge builds upon the previous and should be done in order.
 3. If the value entered for either `end_num` or `start_num` is not a valid integer, display an error message, and loop until both `start_num` and `end_num` are both integers.
 
 ## Reverse a String
+
 ### Problem
+Write a program that uses the `while` loop to reverse the string - `Hello`. 
 
-Write a program that uses the `while` loop to reverse the string - `Hello`.
-
-
-python
-Copy code
+```python
 string = "Hello"
 reversed_string = ""
 index = len(string) - 1
@@ -226,13 +224,41 @@ while index >= 0:
     index -= 1
 
 print(reversed_string)
-Output:
 
-Copy code
-olleH
-Explanation:
+# Output:
+# olleH
+```
 
-The program initializes a variable string with the value "Hello". It then initializes an empty string reversed_string, and a variable index with the value of the length of the string minus 1. The while loop runs as long as index is greater than or equal to 0. Inside the loop, it appends the character at the current index in string to reversed_string, and decrements the index. Finally, it prints the reversed string.
+
+### Explanation:
+
+- The program initializes a variable string with the value "Hello". 
+- It then initializes an empty string `reversed_string`, and a variable index with the value of the length of the string minus `1`. 
+- The while loop runs as long as `index` is greater than or equal to `0`. 
+- Inside the loop, it appends the character at the current index in string to `reversed_string`, and decrements the `index`. 
+- Finally, it prints the reversed string.
+
+> [!info] The `len()` Function
+> The len() function is a built-in function in Python that returns the length of an object. The object can be a string, list, tuple, dictionary, or any iterable sequence.
+> 
+> The syntax of len() function is:
+> 
+> ```python
+len(obj)
+> ```
+> where `obj` is the object whose length we want to find.
+> 
+> For example, to find the length of a string "Hello", we can use the len() function as follows:
+> 
+>```python
+> string = "Hello"
+> length = len(string)
+> print(length)
+> # Output:
+> # 5
+> ```
+> In this example, the `len()`` function returns the length of the string "Hello", which is `5`, and stores it in the variable length. We then print the value of length using the `print()` function.
+
 
 > [!info] Zero Based Counting
 > In Python, as well as in many other programming languages, counting starts from 0, which means that the first element in a sequence is given an index of 0, the second element has an index of 1, and so on. This is known as 0-based counting or zero-indexed numbering.
@@ -253,9 +279,28 @@ The program initializes a variable string with the value "Hello". It then initia
 > 
 > In general, zero-based counting is more common in programming because it is simpler and more efficient to implement in many cases. It also has some mathematical advantages when working with indices and offsets.
 
+### Challenges
+1. The user should be able to enter any text. The program should then reverse the text provided by the user.
+2. If the text provided by the user is a palindrome, display the message - `"{user_input} is a palindrome!"`.
+
+> [!info] Palindrome
+> A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward. Examples - racecar, level, deified.
+
+## Print a Fibonacci sequence up to a given number
+### Problem
+
+Write a program that uses the `while` loop to print the Fibonacci sequence from 1 to 100.
+
+> [!info] Fibonacci sequence
+> The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding numbers. The sequence starts with 0, 1, and each subsequent number is the sum of the previous two numbers. Therefore, the first few numbers in the Fibonacci sequence are:
+> 
+> 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+
+### Solution
+
+
 # Exercises
 
-2. Print the reverse of a given number.
 3. Generate a Fibonacci sequence up to a given number.
 4. Count the number of digits in a given number.
 5. Find the largest and smallest digit in a given number.
