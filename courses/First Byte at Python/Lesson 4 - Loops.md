@@ -322,7 +322,8 @@ while b < 100:
 -   When `b` becomes greater than or equal to 100, the loop terminates and the program ends
 
 ### Challenges
-
+- The user should be able to input a number `n` and have the program print the first `n` terms of the Fibonacci sequence, instead of printing up to a fixed value of 100.
+- The user should beable to choose whether to print the Fibonacci sequence in reverse or forward order.
 
 # Exercises
 
