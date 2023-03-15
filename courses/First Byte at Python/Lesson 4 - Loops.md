@@ -330,6 +330,77 @@ while b < 100:
 ### Problem
 Write a python program to use the `while` loop to find the largest and smallest digit in a given number.
 
+### Output Examples
+Examples
+
+Input:
+
+makefile
+Copy code
+num = 234567
+Output:
+
+yaml
+Copy code
+Largest digit: 7
+Smallest digit: 2
+Input:
+
+makefile
+Copy code
+num = 987654321
+Output:
+
+yaml
+Copy code
+Largest digit: 9
+Smallest digit: 1
+Solution
+
+python
+Copy code
+num = int(input("Enter a number: "))
+largest = 0
+smallest = 9
+
+while num > 0:
+    digit = num % 10
+    if digit > largest:
+        largest = digit
+    if digit < smallest:
+        smallest = digit
+    num = num // 10
+
+print("Largest digit:", largest)
+print("Smallest digit:", smallest)
+Explanation
+
+The program works as follows:
+
+First, we take the input number from the user.
+We initialize two variables largest and smallest to 0 and 9 respectively. These variables will hold the largest and smallest digits in the number.
+We enter into a while loop which will continue until num becomes 0.
+In each iteration of the loop, we extract the last digit of num using the modulus operator (%) and store it in a variable called digit.
+We then compare digit with largest and smallest and update their values accordingly.
+We then divide num by 10 using integer division (//) to remove the last digit from num.
+Once the while loop terminates, we print the values of largest and smallest.
+Challenges
+
+Story 1: Allow negative input
+As a user, I want to be able to input negative numbers so that I can find the largest and smallest digit in negative numbers as well.
+
+Story 2: Handle non-numeric input
+As a user, I want the program to handle non-numeric input so that the program does not crash and provides meaningful feedback.
+
+Story 3: Allow multiple inputs
+As a user, I want to be able to input multiple numbers so that I can find the largest and smallest digit in multiple numbers without having to restart the program each time.
+
+Story 4: Handle decimal inputs
+As a user, I want the program to handle decimal inputs so that I can find the largest and smallest digit in decimal numbers as well.
+
+Story 5: Handle large inputs
+As a user, I want the program to handle large inputs (more than 10 digits) so that I can find the largest and smallest digit in large numbers as well.
+
 
 # Summary
 
