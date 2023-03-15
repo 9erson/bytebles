@@ -325,11 +325,10 @@ while b < 100:
 - The user should be able to input a number `n` and have the program print the first `n` terms of the Fibonacci sequence, instead of printing up to a fixed value of 100.
 - The user should beable to choose whether to print the Fibonacci sequence in reverse or forward order.
 
-# Exercises
+## Find the largest and smallest digit in a given number
 
-3. Generate a Fibonacci sequence up to a given number.
-4. Count the number of digits in a given number.
-5. Find the largest and smallest digit in a given number.
+### Problem
+Write a python program to use the `while` loop to find the largest and smallest digit in a given number.
 
 
 # Summary
