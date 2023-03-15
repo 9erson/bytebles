@@ -323,7 +323,7 @@ while b < 100:
 
 ### Challenges
 - The user should be able to input a number `n` and have the program print the first `n` terms of the Fibonacci sequence, instead of printing up to a fixed value of 100.
-- The user should beable to choose whether to print the Fibonacci sequence in reverse or forward order.
+- The user should be able to choose whether to print the Fibonacci sequence in reverse or forward order.
 
 ## Find the largest and smallest digit in a given number
 
@@ -331,31 +331,21 @@ while b < 100:
 Write a python program to use the `while` loop to find the largest and smallest digit in a given number.
 
 ### Output Examples
-Examples
 
-Input:
-
-makefile
-Copy code
-num = 234567
-Output:
-
-yaml
-Copy code
+```
+# Example 1
+number = 234567
 Largest digit: 7
 Smallest digit: 2
-Input:
 
-makefile
-Copy code
-num = 987654321
-Output:
-
-yaml
-Copy code
+# Example 2
+number = 987654321
 Largest digit: 9
 Smallest digit: 1
-Solution
+```
+Examples
+
+
 
 python
 Copy code
@@ -392,14 +382,11 @@ As a user, I want to be able to input negative numbers so that I can find the la
 Story 2: Handle non-numeric input
 As a user, I want the program to handle non-numeric input so that the program does not crash and provides meaningful feedback.
 
-Story 3: Allow multiple inputs
-As a user, I want to be able to input multiple numbers so that I can find the largest and smallest digit in multiple numbers without having to restart the program each time.
+
 
 Story 4: Handle decimal inputs
 As a user, I want the program to handle decimal inputs so that I can find the largest and smallest digit in decimal numbers as well.
 
-Story 5: Handle large inputs
-As a user, I want the program to handle large inputs (more than 10 digits) so that I can find the largest and smallest digit in large numbers as well.
 
 
 # Summary
