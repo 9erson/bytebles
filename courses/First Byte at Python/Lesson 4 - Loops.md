@@ -160,9 +160,13 @@ while not authenticated:
 	- If they do not, we print an error message and repeat the loop.
 
 ### Challenges
-1. Instead of using the variable `authenticated` to track whether the user is authenticated or not, use a variable called `is`
+1. To keep track of whether the user is authenticated or not, use the variable named unauthorized instead of authenticated. Print the message "Access granted!" only if the user enters the correct username and password.
+2. Modify the previous code to follow the conditions below:
+	1. If the username and/or password is incorrect, show the message "Unknown user {input_username}", substituting {input_username} with the actual username provided by the user.
+	2. If the username is correct (i.e., "johndoe"), but the password is incorrect, show the message "Incorrect password for user {input_username}", substituting {input_username} with the actual username provided by the user (which, in this case, will always be "johndoe").
+	3. If both the username and password are correct, display the original message, "Access granted!"
 
-## Print Event Numbers from 5 to 30
+## Print Even Numbers from 5 to 30
 
 Write a program that uses the `while` loop to print all the even numbers between 5 and 30 (inclusive). The output should look like this:
 
@@ -193,11 +197,17 @@ while num <= end_num:
     num += 1
 ```
 
-In this solution, we first initialize start_num to 5, end_num to 30, and num to start_num. We then use a while loop to repeatedly check if num is less than or equal to end_num. Inside the loop, we use an if statement to check if num is even, and if it is, we print it to the console. Finally, we increment num by 1 in each iteration of the loop.
+In this solution, we first initialize `start_num` to 5, `end_num` to 30, and `num` to `start_num`. We then use a while loop to repeatedly check if `num` is less than or equal to `end_num`. Inside the loop, we use an if statement to check if `num` is even, and if it is, we print it to the console. Finally, we increment `num` by 1 in each iteration of the loop.
 
-The reason we need to increment num in each iteration is to ensure that the loop eventually terminates. Without this step, the loop would continue running indefinitely, which is known as an infinite loop. By incrementing num, we ensure that it eventually becomes greater than end_num, which causes the loop to exit.
+The reason we need to increment `num` in each iteration is to ensure that the loop eventually terminates. Without this step, the loop would continue running indefinitely, which is known as an infinite loop. By incrementing `num`, we ensure that it eventually becomes greater than `end_num`, which causes the loop to exit.
 
-Using a while loop in this case is just an alternative to using a for loop. The while loop allows us to control the iteration manually, which can be useful in situations where we need to perform more complex conditional checks before each iteration.
+### Challenges
+
+Each challenge builds upon the previous and should be done in order.
+
+1. The user should be able to provide values for `start_num` and `end_num`.
+2. If the value entered for `end_num` is greater than the value entered for `start_num`, display an error message, and loop until `end_num` is greater than `start_num`.
+3. If the value entered for either `end_num` or `start_num` is not a valid integer, display an error message, and loop until both `start_num` and `end_num` are both integers.
 
 
 # Exercises
