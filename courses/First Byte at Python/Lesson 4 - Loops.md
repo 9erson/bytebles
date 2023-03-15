@@ -78,13 +78,21 @@ Write a program that uses the `while` loop to print out numbers from 1-10. The o
 count = 1
 while count <= 10:
     print(count)
-    count = count + 1
+    count += 1
 ```
 
 In this example, the `count` variable is initialized to 1, and the while loop continues to execute as long as `count` is less than or equal to 10. Inside the loop, the current value of count is printed, and then count is incremented by 1. This process repeats until `count` is greater than 10, at which point the loop exits.
 
-> [!info] New Operators
-> Note the new operator `+=`
+> [!info] Compound Assignment Operators
+> In Python, the `+=` operator is a shorthand way of writing `x = x + y`. It's used to add the value of `y` to the existing value of `x`, and then assign the result back to `x`. This operator is often used in loops and other situations where you need to update a variable's value repeatedly.
+> 
+> There are several other similar operators in Python, including:
+> 
+> `-=`: This operator subtracts the value on the right-hand side from the value on the left-hand side, and assigns the result back to the left-hand side variable. For example, x -= y is the same as writing x = x - y.
+> `*=`: This operator multiplies the value on the right-hand side by the value on the left-hand side, and assigns the result back to the left-hand side variable. For example, x *= y is the same as writing x = x * y.
+> `/=`: This operator divides the value on the left-hand side by the value on the right-hand side, and assigns the result back to the left-hand side variable. For example, x /= y is the same as writing x = x / y.
+> 
+> These operators can save you time and make your code more concise, especially when you need to update variables in loops or other repetitive tasks.
 
 
 # User Authentication
