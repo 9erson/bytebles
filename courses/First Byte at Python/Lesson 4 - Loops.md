@@ -209,6 +209,49 @@ Each challenge builds upon the previous and should be done in order.
 2. If the value entered for `end_num` is greater than the value entered for `start_num`, display an error message, and loop until `end_num` is greater than `start_num`.
 3. If the value entered for either `end_num` or `start_num` is not a valid integer, display an error message, and loop until both `start_num` and `end_num` are both integers.
 
+## Reverse a String
+### Problem
+
+Write a program that uses the `while` loop to reverse the string - `Hello`.
+
+
+python
+Copy code
+string = "Hello"
+reversed_string = ""
+index = len(string) - 1
+
+while index >= 0:
+    reversed_string += string[index]
+    index -= 1
+
+print(reversed_string)
+Output:
+
+Copy code
+olleH
+Explanation:
+
+The program initializes a variable string with the value "Hello". It then initializes an empty string reversed_string, and a variable index with the value of the length of the string minus 1. The while loop runs as long as index is greater than or equal to 0. Inside the loop, it appends the character at the current index in string to reversed_string, and decrements the index. Finally, it prints the reversed string.
+
+> [!info] Zero Based Counting
+> In Python, as well as in many other programming languages, counting starts from 0, which means that the first element in a sequence is given an index of 0, the second element has an index of 1, and so on. This is known as 0-based counting or zero-indexed numbering.
+> 
+> For example, consider the string "Hello". The character 'H' is at index 0, 'e' is at index 1, 'l' is at index 2, 'l' is at index 3, and 'o' is at index 4.
+> 
+> ```
+>  +---+---+---+---+---+
+>  | H | e | l | l | o |
+>  +---+---+---+---+---+
+>    0   1   2   3   4
+>  ```
+> On the other hand, humans tend to use 1-based counting, which means that the first element in a sequence is given an index of 1, the second element has an index of 2, and so on.
+> 
+> For example, if we were counting the letters in the word "Hello" using 1-based counting, we would say that 'H' is at position 1, 'e' is at position 2, 'l' is at position 3, 'l' is at position 4, and 'o' is at position 5.
+> 
+> This difference in counting can sometimes cause confusion when working with code that uses zero-indexed numbering. It's important to remember that in Python, the first element in a sequence has an index of 0, not 1.
+> 
+> In general, zero-based counting is more common in programming because it is simpler and more efficient to implement in many cases. It also has some mathematical advantages when working with indices and offsets.
 
 # Exercises
 
