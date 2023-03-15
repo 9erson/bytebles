@@ -53,18 +53,39 @@ while condition:
 
 In the while loop, the condition is a boolean expression that is checked at the beginning of each iteration. If the condition is true, the code inside the loop is executed. If the condition is false, the loop exits and the program continues to the next statement.
 
-# Example of a while loop
+# Examples
 
-Here is an example of a while loop that counts from 1 to 10:
+## Prints Numbers from 1-10
+
+### Problem
+Write a program that uses the `while` loop to print out numbers from 1-10. The output should look like this:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+```
+
+### Solution
 
 ```python
 count = 1
 while count <= 10:
     print(count)
-    count += 1
+    count = count + 1
 ```
 
 In this example, the `count` variable is initialized to 1, and the while loop continues to execute as long as `count` is less than or equal to 10. Inside the loop, the current value of count is printed, and then count is incremented by 1. This process repeats until `count` is greater than 10, at which point the loop exits.
+
+> [!info] New Operators
+> Note the new operator `+=`
+
 
 # User Authentication
 
