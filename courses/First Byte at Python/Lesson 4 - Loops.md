@@ -298,6 +298,23 @@ Write a program that uses the `while` loop to print the Fibonacci sequence from 
 
 ### Solution
 
+```python
+a = 0
+b = 1
+count = 0
+while b < 100:
+    print(b)
+    next_term = a + b
+    a = b
+    b = next_term
+    count += 1
+```
+
+### Explanation
+- In this program, we use a third variable `next_term` to store the value of the next term in the sequence, which is the sum of the previous two terms (`a` and `b`).
+- We first initialize `a` to 0 and `b` to 1. 
+	- We then use a `while` loop to print the first 100 terms of the sequence. In each iteration of the loop, we first print the current term (`b`), and then calculate the value of the next term and store it in `next_term`.
+- We then update `a` and `b` to be the last two terms in the sequence, with `a` taking the value of the previous `b`, and `b` taking the value of `next_term`.
 
 # Exercises
 
