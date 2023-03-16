@@ -101,14 +101,11 @@ The `+` operator is used to concatenate the different pieces of text together. W
 
 ## Challenges
 1. Substitute "John" and "Doe" for your first and last name.
-2. 
+2. Construct 2 more sentences from its parts. e.g. concatenate "The quick brown fox" and "jumps over the lazy dog."
 
-## Processing
-
-### Variables
+## Variables
 
 Variables are named storage locations that hold a value, and they can be used to store and manipulate data in a program. For example:
-
 
 ```python
 name = "John"
@@ -117,6 +114,9 @@ print(name)
 
 This code will display "John" on the screen. By using variables, we can create more dynamic and flexible programs that can store and manipulate different data values.
 
+### Challenges
+1. Change "John" to your name.
+2. Create a new variable called `age` and assign it the value of your age.
 
 
 ## Input
