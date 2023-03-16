@@ -28,12 +28,14 @@ This flowchart shows the three main components of the IPO model and their relati
 # Examples
 
 ## Output
-Now let's try and apply the IPO model to Python. To demonstrate the "Output" part of the IPO model, we will be using the `print` function to display the text "Hello World" to the screen.
+Let's apply the IPO model to Python to better understand it. We will start by focusing on the "Output" component. To demonstrate the "Output" part of the IPO model, we will use the print function in Python to display the text "Hello World" on the screen.
 
+Here is the code that demonstrates the use of `print` function to display the text "Hello World" on the screen:
 ```python
 print("Hello World")
 ```
 
+When this code block is executed, it will output the text "Hello World" on the screen. The print function in Python is used to display text or other values on the screen. It takes one or more arguments inside the parentheses and displays them on the screen. In this case, we have passed the string "Hello World" as an argument to the print function, which will output it on the screen.
 
 ## Processing
 
