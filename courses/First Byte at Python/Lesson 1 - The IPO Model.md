@@ -28,7 +28,7 @@ This flowchart shows the three main components of the IPO model and their relati
 # Examples
 
 ## Output
-Now let's try an apply the IPO model to Python. To demonstrate the Output part of the IPO model in Python, we will be using the `print` function to display the text "Hello World" to the screen.
+Now let's try and apply the IPO model to Python. To demonstrate the "Output" part of the IPO model, we will be using the `print` function to display the text "Hello World" to the screen.
 
 ```python
 print("Hello World")
