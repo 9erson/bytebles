@@ -112,7 +112,9 @@ name = "John"
 print(name)
 ```
 
-This code will display "John" on the screen. By using variables, we can create more dynamic and flexible programs that can store and manipulate different data values.
+In this program, the variable name is assigned the value "John" using the assignment operator `=`. The = operator assigns the value on the right-hand side to the variable on the left-hand side. Here, the variable name is the operand on the left-hand side, and the text "John" is the operand on the right-hand side of the assignment operator.
+
+
 
 ### Challenges
 1. Change "John" to your name.
