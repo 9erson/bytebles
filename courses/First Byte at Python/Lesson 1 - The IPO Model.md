@@ -8,14 +8,10 @@ Welcome to the Introduction to Python course, where we will discuss the IPO mode
 
 # IPO Model - Input, Processing, Output
 
-The IPO model describes the flow of data within a program. The input component involves receiving data or information from external sources, such as user input, files, or databases, and storing it in variables for processing. Processing involves performing operations on the input data to produce an output, such as calculations, data manipulation, or running algorithms. Output involves returning the processed data to the user or saving it to an external source, such as a file or database.
+The IPO model describes the flow of data within a program. The input component involves receiving data or information from external sources, such as user input, files, or ==databases==, and storing it in variables for processing. Processing involves performing operations on the input data to produce an output, such as calculations, data manipulation, or running algorithms. Output involves returning the processed data to the user or saving it to an external source, such as a file or database.
 
 >[!info] Database
 > A structured collection of data that is stored and organized in a way that allows efficient retrieval and manipulation of the data.
-
->[!info] User input
-> Any data or information entered by the user of a program or system that is used as input for processing. Examples of user input include mouse clicks, keyboard entries, and touchscreen gestures. For now, we will only be looking at keyboard entries as user input.
-
 
 ```mermaid
 graph LR
@@ -29,14 +25,14 @@ This flowchart shows the three main components of the IPO model and their relati
 
 ## Displaying Text
 
-Let's apply the IPO model to Python to better understand it. We will start by focusing on the "Output" component. To demonstrate the "Output" part of the IPO model, we will use the print function in Python to display the text "Hello World" on the screen.
+Let's apply the IPO model to Python to better understand it. We will start by focusing on the "Output" component. To demonstrate the "Output" part of the IPO model, we will use the print ==function== in Python to display the text "Hello World" on the screen.
 
 Here is the code that demonstrates the use of `print` function to display the text "Hello World" on the screen:
 ```python
 print("Hello World")
 ```
 
-When this code block is executed, it will output the text "Hello World" on the screen. The print function in Python is used to display text or other values on the screen. It takes one or more arguments inside the parentheses and displays them on the screen. In this case, we have passed the string "Hello World" as an argument to the print function, which will output it on the screen.
+When this code block is executed, it will output the text "Hello World" on the screen. The print function in Python is used to display text or other values on the screen. It takes one or more ==arguments== inside the parentheses and displays them on the screen. In this case, we have passed the string "Hello World" as an argument to the print function, which will output it on the screen.
 
 > [!info] Function
 > A function is a reusable block of code that performs a specific task. Functions help to organize code and make it more modular, which can simplify development and maintenance. For example, the `print()` function in Python is a built-in function that displays text or other values on the screen. It takes one or more arguments inside the parentheses and outputs them on the console.
@@ -62,7 +58,7 @@ print(5)
 
 ## Math
 
-We have seen how to output data to the screen. Let's now look at the "Processing" part of the IPO model in Python. We will demonstrate this by performing arithmetic operations using the arithmetic operators  `+`, `-`, `*` and `/`.
+We have seen how to output data to the screen. Let's now look at the "Processing" part of the IPO model in Python. We will demonstrate this by performing ==arithmetic operations== using the arithmetic operators  `+`, `-`, `*` and `/`.
 ```python
 print(2 + 3)
 print(3.14 * 2)
@@ -86,7 +82,7 @@ Joining text is the process of joining two or more texts together to form a sing
 print("My name is" + " " + "John" + " " + "Doe")
 ```
 
-The above code is a Python statement that concatenates multiple pieces of text to form a longer sentence, which is then displayed on the screen.
+The above code is a Python statement that ==concatenates== multiple pieces of text to form a longer sentence, which is then displayed on the screen.
 
 > [!info] Concatenation
 > In Python, concatenation is the process of combining multiple pieces of text or data together to form a single piece of text or data. In the context of text, concatenation involves joining two or more pieces of text into one longer piece of text.
@@ -112,19 +108,12 @@ name = "John"
 print(name)
 ```
 
-In this program, the variable name is assigned the value "John" using the assignment operator =. 
+In this program, the variable name is assigned the value "John" using the ==assignment operator== =. 
 
 > [!info] Assignment Operator
 > In programming, an assignment operator is a symbol or operator used to assign a value to a variable. In Python, the = operator is the assignment operator used to assign a value to a variable.
 > 
 > The syntax for using an assignment operator is straightforward. The variable to which the value is being assigned is placed on the left-hand side of the operator, and the value to be assigned is placed on the right-hand side of the operator. For example, `name = "John"` assigns the text "John" to the variable `name`.
-
-> [!info] Operand
-> In programming, an operand refers to a value or variable that is operated on by an operator. In other words, an operand is a data object that is manipulated by an operator to perform an operation.
-> 
-> In Python, an operand can take many forms, such as numeric literals, string literals, variables, function calls, or expressions. For example, in the expression `x + y`, `x` and `y` are operands, and the + operator performs the addition operation on the operands.
-> 
-> In the context of an assignment operation, an operand typically refers to the variable or value being assigned a new value. For example, in the expression `x = 5`, `x` is the operand that is being assigned the value `5`.
 
 
 ### Challenges
@@ -134,8 +123,10 @@ In this program, the variable name is assigned the value "John" using the assign
 
 ## Input
 
-Let's now look at the Input part of the IPO model. We will do this by looking at the `input` function in Python. The input function allows users to provide data to the program at runtime, making the program more versatile and user-friendly. It displays a prompt message, waits for the user to enter a value, and returns it as text. We can then concatenate text to display personalized messages that include the user's input. For example:
+Let's now look at the Input part of the IPO model. We will do this by looking at the `input` function in Python. The input function allows users to provide data to the program at ==runtime==, making the program more versatile and user-friendly. It displays a prompt message, waits for the user to enter a value, and returns it as text. We can then concatenate text to display personalized messages that include the user's input. For example:
 
+> [!info] Runtime
+> In programming, "runtime" refers to the period during which a program is being executed or running. In the context of the Input part of the IPO model in Python, "runtime" refers to the time when the program is running and waiting for user input.
 
 ```python
 name = input("Enter your name: ")
