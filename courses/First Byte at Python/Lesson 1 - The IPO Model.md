@@ -37,6 +37,12 @@ print("Hello World")
 
 When this code block is executed, it will output the text "Hello World" on the screen. The print function in Python is used to display text or other values on the screen. It takes one or more arguments inside the parentheses and displays them on the screen. In this case, we have passed the string "Hello World" as an argument to the print function, which will output it on the screen.
 
+> [!info] Function
+> A function is a reusable block of code that performs a specific task. Functions help to organize code and make it more modular, which can simplify development and maintenance. For example, the `print()` function in Python is a built-in function that displays text or other values on the screen. It takes one or more arguments inside the parentheses and outputs them on the console.
+
+> [!info] Argument
+> An argument is a value or reference that is passed to a function or method. For example, the print() function in Python takes one or more arguments inside the parentheses and displays them on the screen. The arguments can be strings, variables, or expressions. Providing arguments to a function or method allows it to perform a specific task with customizable input values. The number and type of arguments needed by a function or method depend on the implementation of that function or method.
+
 ## Processing
 
 ### Variables
