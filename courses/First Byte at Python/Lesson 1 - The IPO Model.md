@@ -27,7 +27,8 @@ This flowchart shows the three main components of the IPO model and their relati
 
 # Examples
 
-## Output
+## Displaying Text
+
 Let's apply the IPO model to Python to better understand it. We will start by focusing on the "Output" component. To demonstrate the "Output" part of the IPO model, we will use the print function in Python to display the text "Hello World" on the screen.
 
 Here is the code that demonstrates the use of `print` function to display the text "Hello World" on the screen:
@@ -42,6 +43,36 @@ When this code block is executed, it will output the text "Hello World" on the s
 
 > [!info] Argument
 > An argument is a value or reference that is passed to a function or method. For example, the print() function in Python takes one or more arguments inside the parentheses and displays them on the screen. The arguments can be strings, variables, or expressions. Providing arguments to a function or method allows it to perform a specific task with customizable input values. The number and type of arguments needed by a function or method depend on the implementation of that function or method.
+
+### Challenges
+1. Write a program to print out your name.
+2. Same as Challenge #1, but use single quotes.
+
+## Displaying Numbers
+
+Just like we display text on the screen, we can also display numbers.
+
+```python
+print(5)
+```
+
+### Challenges
+1. Print out different numbers.
+2. Print out a number with a decimal point. e.g. 3.14.
+
+## Math
+
+We have seen how to output data to the screen. Let's now look at the "Processing" part of the IPO model in Python. We will demonstrate this by performing arithmetic operations.
+```python
+print(2 + 3)
+print(3.14 * 2)
+print(9 / 3)
+```
+
+### Challenges
+1. Try some more math operations using `+`, `-`, `*` and `/`.
+2. Try math on more than 2 numbers.
+3. Try math on more than 2 operators. 
 
 ## Processing
 
