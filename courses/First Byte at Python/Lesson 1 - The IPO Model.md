@@ -40,9 +40,9 @@ When this code block is executed, it will output the text "Hello World" on the s
 > [!info] Argument
 > An argument is a value or reference that is passed to a function or method. For example, the print() function in Python takes one or more arguments inside the parentheses and displays them on the screen. The arguments can be strings, variables, or expressions. Providing arguments to a function or method allows it to perform a specific task with customizable input values. The number and type of arguments needed by a function or method depend on the implementation of that function or method.
 
-### Challenges
+### Chew the Byte
 1. Write a program to print out your name.
-2. Same as Challenge #1, but use single quotes.
+2. Write a program to print out your name, but use single quotes to surround the text.
 
 ## Displaying Numbers
 
@@ -52,7 +52,7 @@ Just like we display text on the screen, we can also display numbers.
 print(5)
 ```
 
-### Challenges
+### Chew the Byte
 1. Print out different numbers.
 2. Print out a number with a decimal point. e.g. 3.14.
 
@@ -69,7 +69,7 @@ print(9 / 3)
 > In Python, an Arithmetic Operator is a symbol that performs an action on values. For example, the + operator adds two values, the - operator subtracts one value from another, the * operator multiplies two values, and the / operator divides one value by another. These operators can be used with different types of values, such as numbers or strings, to produce a result.
 
 
-### Challenges
+### Chew the Byte
 1. Try some more math operations using `+`, `-`, `*` and `/`.
 2. Try math on more than 2 numbers.
 3. Try math on more than 2 operators. 
@@ -95,7 +95,7 @@ The pieces of text being concatenated are enclosed in quotes to indicate that th
 
 The `+` operator is used to concatenate the different pieces of text together. Without the spaces, the sentence would be displayed as "My name isJohnDoe", which would be difficult to read. By including spaces between the words, the sentence becomes more human-readable, and the output becomes "My name is John Doe".
 
-## Challenges
+## Chew the Byte
 1. Substitute "John" and "Doe" for your first and last name.
 2. Construct 2 more sentences from its parts. e.g. concatenate "The quick brown fox" and "jumps over the lazy dog."
 
@@ -116,7 +116,7 @@ In this program, the variable name is assigned the value "John" using the ==assi
 > The syntax for using an assignment operator is straightforward. The variable to which the value is being assigned is placed on the left-hand side of the operator, and the value to be assigned is placed on the right-hand side of the operator. For example, `name = "John"` assigns the text "John" to the variable `name`.
 
 
-### Challenges
+### Chew the Byte
 1. Change "John" to your name.
 2. Create a new variable called `age` and assign it the value of your age.
 
@@ -133,9 +133,18 @@ name = input("Enter your name: ")
 print("Hello, " + name + "!")
 ```
 
-This code will prompt the user to enter their name, and then display "Hello, [name]!" on the screen.
+The code above demonstrates how the `input()` function can be used to receive input from the user at runtime, specifically to get the user's name.
 
-## Exercise
+The first line of the code assigns the value entered by the user to the variable name. The `input()` function is used to display a prompt message asking the user to enter their name. When the user enters their name and presses enter, the value they entered is stored in the name variable.
+
+The second line of the code uses string concatenation to create a personalized message that includes the user's input. The message "Hello, " is concatenated with the value of the name variable, which contains the name the user entered, and "!" is added at the end to create a friendly greeting message.
+
+### Chew the Byte
+
+1. Prompt the user for their first name, then their last name. Use the variables `first_name` and `last_name`. Then display `Hello, {first_name} {last_name}` with the values provided by the user.
+2. Prompt the user for their name and age. Then display `Hello {name}, you are {age} years old!`
+
+# Project
 
 ### Madlibs Generator
 
