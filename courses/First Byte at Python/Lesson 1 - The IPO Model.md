@@ -62,17 +62,31 @@ print(5)
 
 ## Math
 
-We have seen how to output data to the screen. Let's now look at the "Processing" part of the IPO model in Python. We will demonstrate this by performing arithmetic operations.
+We have seen how to output data to the screen. Let's now look at the "Processing" part of the IPO model in Python. We will demonstrate this by performing arithmetic operations using the arithmetic operators  `+`, `-`, `*` and `/`.
 ```python
 print(2 + 3)
 print(3.14 * 2)
 print(9 / 3)
 ```
 
+> [!info] Arithmetic Operator
+> In Python, an Arithmetic Operator is a symbol that performs an action on values. For example, the + operator adds two values, the - operator subtracts one value from another, the * operator multiplies two values, and the / operator divides one value by another. These operators can be used with different types of values, such as numbers or strings, to produce a result.
+
+
 ### Challenges
 1. Try some more math operations using `+`, `-`, `*` and `/`.
 2. Try math on more than 2 numbers.
 3. Try math on more than 2 operators. 
+
+## Joining Text
+
+Joining text is the process of joining two or more texts together to form a single, larger text. In Python, we can join texts using the `+` operator. For example:
+
+```python
+print("My name is" + " " + "John" + " " + "Doe")
+```
+
+This code will display "My name is John Doe" on the screen. By using this Python feature, we can make more dynamic and flexible programs that can show different things depending on the values of variables.
 
 ## Processing
 
@@ -88,17 +102,7 @@ print(name)
 
 This code will display "John" on the screen. By using variables, we can create more dynamic and flexible programs that can store and manipulate different data values.
 
-### Joining Text
 
-Joining text is the process of joining two or more texts together to form a single, larger text. In Python, we can join texts using +. For example:
-
-```python
-first_name = "John"
-last_name = "Doe"
-print("My name is " + first_name + " " + last_name)
-```
-
-This code will display "My name is John Doe" on the screen. By using this Python feature, we can make more dynamic and flexible programs that can show different things depending on the values of variables.
 
 ## Input
 
