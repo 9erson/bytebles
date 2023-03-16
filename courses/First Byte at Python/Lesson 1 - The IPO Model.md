@@ -86,7 +86,15 @@ Joining text is the process of joining two or more texts together to form a sing
 print("My name is" + " " + "John" + " " + "Doe")
 ```
 
-This code will display "My name is John Doe" on the screen. By using this Python feature, we can make more dynamic and flexible programs that can show different things depending on the values of variables.
+This code is a Python statement that uses the `print()` function to output a text message to the screen. The message consists of several text parts that are joined together using the `+` operator and some spaces.
+
+The `print()` function takes one or more arguments, which are the values that need to be displayed. In this case, a text message is constructed by joining several text parts using the + operator.
+
+The text parts are enclosed in quotes to indicate that they are text literals. The space between the text parts is added using the string literal " ", which represents a single space.
+
+The need for spaces between the text parts is to make the output more readable and visually appealing. Without the spaces, the text parts would be joined together without any separation, which could make it difficult to read the message.
+
+Overall, this code demonstrates how to join text parts together using the + operator and how to add spaces between them to create a well-formatted text message.
 
 ## Processing
 
