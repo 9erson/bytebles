@@ -112,8 +112,19 @@ name = "John"
 print(name)
 ```
 
-In this program, the variable name is assigned the value "John" using the assignment operator `=`. The = operator assigns the value on the right-hand side to the variable on the left-hand side. Here, the variable name is the operand on the left-hand side, and the text "John" is the operand on the right-hand side of the assignment operator.
+In this program, the variable name is assigned the value "John" using the assignment operator =. 
 
+> [!info] Assignment Operator
+> In programming, an assignment operator is a symbol or operator used to assign a value to a variable. In Python, the = operator is the assignment operator used to assign a value to a variable.
+> 
+> The syntax for using an assignment operator is straightforward. The variable to which the value is being assigned is placed on the left-hand side of the operator, and the value to be assigned is placed on the right-hand side of the operator. For example, `name = "John"` assigns the text "John" to the variable `name`.
+
+> [!info] Operand
+> In programming, an operand refers to a value or variable that is operated on by an operator. In other words, an operand is a data object that is manipulated by an operator to perform an operation.
+> 
+> In Python, an operand can take many forms, such as numeric literals, string literals, variables, function calls, or expressions. For example, in the expression `x + y`, `x` and `y` are operands, and the + operator performs the addition operation on the operands.
+> 
+> In the context of an assignment operation, an operand typically refers to the variable or value being assigned a new value. For example, in the expression `x = 5`, `x` is the operand that is being assigned the value `5`.
 
 
 ### Challenges
@@ -123,9 +134,7 @@ In this program, the variable name is assigned the value "John" using the assign
 
 ## Input
 
-### Using input() in Python
-
-The input function allows users to provide data to the program at runtime, making the program more versatile and user-friendly. It displays a prompt message, waits for the user to enter a value, and returns it as text. We can join text to display personalized messages that include the user's input. For example:
+Let's now look at the Input part of the IPO model. We will do this by looking at the `input` function in Python. The input function allows users to provide data to the program at runtime, making the program more versatile and user-friendly. It displays a prompt message, waits for the user to enter a value, and returns it as text. We can then concatenate text to display personalized messages that include the user's input. For example:
 
 
 ```python
