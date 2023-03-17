@@ -21,7 +21,7 @@ graph LR
 
 This flowchart shows the three main components of the IPO model and their relationship to each other. Data is inputted into the program, processed in some way, and then outputted to the user or saved to an external source.
 
-# Examples
+# Concepts
 
 ## Displaying Text
 
