@@ -1,4 +1,4 @@
-# Introduction to Python and IPO Model
+# Introduction
 
 Welcome to the Introduction to Python course, where we will discuss the IPO model and its application to programming. The IPO model is a fundamental concept in programming that describes the flow of data within a program. The model consists of three main components: Input, Processing, and Output. In this lesson, we will discuss these components and their implementation in Python.
 
@@ -6,7 +6,7 @@ Welcome to the Introduction to Python course, where we will discuss the IPO mode
 > A set of instructions written in a programming language that a computer can interpret and execute to perform a specific task or solve a problem.
 
 
-# IPO Model - Input, Processing, Output
+## IPO Model - Input, Processing, Output
 
 The IPO model describes the flow of data within a program. The input component involves receiving data or information from external sources, such as user input, files, or ==databases==, and storing it in variables for processing. Processing involves performing operations on the input data to produce an output, such as calculations, data manipulation, or running algorithms. Output involves returning the processed data to the user or saving it to an external source, such as a file or database.
 
@@ -144,7 +144,7 @@ The second line of the code uses string concatenation to create a personalized m
 1. Prompt the user for their first name, then their last name. Use the variables `first_name` and `last_name`. Then display `Hello, {first_name} {last_name}` with the values provided by the user.
 2. Prompt the user for their name and age. Then display `Hello {name}, you are {age} years old!`
 
-# Project
+# Byte To Go
 
 ### Madlibs Generator
 
