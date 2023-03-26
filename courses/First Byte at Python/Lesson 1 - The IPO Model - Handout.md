@@ -106,11 +106,11 @@ The `+` operator is used to concatenate the different pieces of text together. W
 Variables are named storage locations that hold a value, and they can be used to store and manipulate data in a program. For example:
 
 ```python
-name = "John"
-print(name)
+jedi_master = "Obi-Wan Kenobi"
+print(jedi_master)
 ```
 
-In this program, the variable name is assigned the value "John" using the ==assignment operator== =. 
+In this program, the variable name is assigned the value "Obi-Wan Kenobi" using the ==assignment operator== =. 
 
 > [!info] Assignment Operator
 > In programming, an assignment operator is a symbol or operator used to assign a value to a variable. In Python, the = operator is the assignment operator used to assign a value to a variable.
@@ -119,8 +119,8 @@ In this program, the variable name is assigned the value "John" using the ==assi
 
 
 ### Chew the Byte
-1. Change "John" to your name.
-2. Create a new variable called `age` and assign it the value of your age.
+1. Change "Obi-Wan Kenobi" to your name.
+2. Create a new variable called `age` and assign it the value of your age. Then print it out.
 
 
 ## Input
@@ -131,8 +131,8 @@ Let's now look at the Input part of the IPO model. We will do this by looking at
 > In programming, "runtime" refers to the period during which a program is being executed or running. In the context of the Input part of the IPO model in Python, "runtime" refers to the time when the program is running and waiting for user input.
 
 ```python
-name = input("Enter your name: ")
-print("Hello, " + name + "!")
+hobbit_name = input("What is your Hobbit name, dear friend?: ")
+print("Well met, " + hobbit_name + ", and welcome to the Shire!")
 ```
 
 The code above demonstrates how the `input()` function can be used to receive input from the user at runtime, specifically to get the user's name.
