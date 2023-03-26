@@ -135,11 +135,11 @@ hobbit_name = input("What is your Hobbit name, dear friend?: ")
 print("Well met, " + hobbit_name + ", and welcome to the Shire!")
 ```
 
-The code above demonstrates how the `input()` function can be used to receive input from the user at runtime, specifically to get the user's name.
+The code above demonstrates how the `input()` function can be used to receive input from the user at runtime, specifically to get the user's Hobbit name.
 
-The first line of the code assigns the value entered by the user to the variable name. The `input()` function is used to display a prompt message asking the user to enter their name. When the user enters their name and presses enter, the value they entered is stored in the name variable.
+The first line of the code assigns the value entered by the user to the variable `hobbit_name`. The `input()` function is used to display a prompt message asking the user to enter their Hobbit name. When the user enters their name and presses enter, the value they entered is stored in the `hobbit_name` variable.
 
-The second line of the code uses string concatenation to create a personalized message that includes the user's input. The message "Hello, " is concatenated with the value of the name variable, which contains the name the user entered, and "!" is added at the end to create a friendly greeting message.
+The second line of the code uses string concatenation to create a personalized message that includes the user's input. The message "Well met, " is concatenated with the value of the `hobbit_name` variable, which contains the name the user entered, and "!" is added at the end to create a friendly greeting message.
 
 ### Chew the Byte
 
