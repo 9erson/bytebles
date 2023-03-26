@@ -25,14 +25,14 @@ This flowchart shows the three main components of the IPO model and their relati
 
 ## Displaying Text
 
-Let's apply the IPO model to Python to better understand it. We will start by focusing on the "Output" component. To demonstrate the "Output" part of the IPO model, we will use the print ==function== in Python to display the text "Hello World" on the screen.
+Let's apply the IPO model to Python to better understand it. We will start by focusing on the "Output" component. To demonstrate the "Output" part of the IPO model, we will use the print ==function== in Python to display the text "May the Force be with you" on the screen.
 
-Here is the code that demonstrates the use of `print` function to display the text "Hello World" on the screen:
+Here is the code that demonstrates the use of `print` function to display the text "May the Force be with you" on the screen:
 ```python
-print("Hello World")
+print("May the Force be with you")
 ```
 
-When this code block is executed, it will output the text "Hello World" on the screen. The print function in Python is used to display text or other values on the screen. It takes one or more ==arguments== inside the parentheses and displays them on the screen. In this case, we have passed the string "Hello World" as an argument to the print function, which will output it on the screen.
+When this code block is executed, it will output the text "May the Force be with you" on the screen. The print function in Python is used to display text or other values on the screen. It takes one or more ==arguments== inside the parentheses and displays them on the screen. In this case, we have passed the string "May the Force be with you" as an argument to the print function, which will output it on the screen.
 
 > [!info] Function
 > A function is a reusable block of code that performs a specific task. Functions help to organize code and make it more modular, which can simplify development and maintenance. For example, the `print()` function in Python is a built-in function that displays text or other values on the screen. It takes one or more arguments inside the parentheses and outputs them on the console.
@@ -79,7 +79,7 @@ print(9 / 3)
 Joining text is the process of joining two or more texts together to form a single, larger text. In Python, we can join texts using the `+` operator. For example:
 
 ```python
-print("My name is" + " " + "John" + " " + "Doe")
+print("I am" + " " + "Frodo" + " " + "Baggins, and I'm on a quest to destroy the " + "Ring" + ".")
 ```
 
 The above code is a Python statement that ==concatenates== multiple pieces of text to form a longer sentence, which is then displayed on the screen.
@@ -96,8 +96,10 @@ The pieces of text being concatenated are enclosed in quotes to indicate that th
 The `+` operator is used to concatenate the different pieces of text together. Without the spaces, the sentence would be displayed as "My name isJohnDoe", which would be difficult to read. By including spaces between the words, the sentence becomes more human-readable, and the output becomes "My name is John Doe".
 
 ## Chew the Byte
-1. Substitute "John" and "Doe" for your first and last name.
-2. Construct 2 more sentences from its parts. e.g. concatenate "The quick brown fox" and "jumps over the lazy dog."
+1. Substitute "Frodo" and "Baggins" for your first and last name.
+2. Print out 2 more sentences that are randomly split. Here are some suggestions:
+	1. "Do. Or do not. There is no try."
+	2. "All we have to decide is what to do with the time that is given us."
 
 ## Variables
 
