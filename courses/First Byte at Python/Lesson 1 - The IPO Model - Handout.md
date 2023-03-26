@@ -93,7 +93,7 @@ The `print()` function is used to output the final sentence to the screen. It ta
 
 The pieces of text being concatenated are enclosed in quotes to indicate that they are string literals. The first piece of text is "My name is", followed by a space (represented by the " "), then "John", another space, and finally "Doe". The spaces are needed to separate the different words in the sentence and make it more readable.
 
-The `+` operator is used to concatenate the different pieces of text together. Without the spaces, the sentence would be displayed as "My name isJohnDoe", which would be difficult to read. By including spaces between the words, the sentence becomes more human-readable, and the output becomes "My name is John Doe".
+The `+` operator is used to concatenate the different pieces of text together. Without the spaces, the sentence would be displayed as "I amFrodoBaggins, and I'm on a quest to destroy the Ring.", which would be difficult to read. By including spaces between the words, the sentence becomes more human-readable, and the output becomes "I am Frodo Baggins, and I'm on a quest to destroy the Ring.".
 
 ## Chew the Byte
 1. Substitute "Frodo" and "Baggins" for your first and last name.
