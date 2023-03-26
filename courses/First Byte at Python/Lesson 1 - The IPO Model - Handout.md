@@ -158,10 +158,10 @@ You have been tasked with creating a Madlibs generator program in Python. Your p
 #### Example:
 Here's an example Madlibs template:
 
-> "The {noun1} was so {adj1} that it decided to {verb1} all the way to the {noun2}. When it got there, it was {adj2} and decided to {verb2} instead."
+> "The {noun1} was so {adj1} that it decided to {verb1} all the way to the {noun2}. When it got there, it was {adj2} and decided to {verb2} instead, just like Frodo and Sam on their journey to destroy the Ring. They encountered many {noun3} along the way, but with the help of their friends, they were able to {verb3} the Ring and save Middle Earth from the forces of {noun4}."
 
 And here's what the completed Madlibs story might look like based on the user's inputs:
 
-> "The pizza was so cheesy that it decided to dance all the way to the moon. When it got there, it was exhausted and decided to sing instead."
+> "The sword was so sharp that it decided to sing all the way to the volcano. When it got there, it was tired and decided to dance instead, just like Frodo and Sam on their journey to destroy the Ring. They encountered many orcs along the way, but with the help of their friends, they were able to destroy the Ring and save Middle Earth from the forces of darkness."
 
 Your task is to write a Python program that implements this Madlibs generator, following the requirements listed above. Have fun with it and be creative!
