@@ -162,6 +162,7 @@ Here's an example Madlibs template:
 
 And here's what the completed Madlibs story might look like based on the user's inputs:
 
-> "The sword was so sharp that it decided to sing all the way to the volcano. When it got there, it was tired and decided to dance instead, just like Frodo and Sam on their journey to destroy the Ring. They encountered many orcs along the way, but with the help of their friends, they were able to destroy the Ring and save Middle Earth from the forces of darkness."
+> 1.  "The pineapple was so spiky that it decided to roll all the way to the moon. When it got there, it was dizzy and decided to moonwalk instead, just like Frodo and Sam on their journey to destroy the Ring. They encountered many unicorns along the way, but with the help of their friends, they were able to burp the Ring and save Middle Earth from the forces of pickles."
+> 2. "The sandwich was so delicious that it decided to dance all the way to the beach. When it got there, it was sandy and decided to swim instead, just like Frodo and Sam on their journey to destroy the Ring. They encountered many llamas along the way, but with the help of their friends, they were able to jump the Ring and save Middle Earth from the forces of broccoli."
 
 Your task is to write a Python program that implements this Madlibs generator, following the requirements listed above. Have fun with it and be creative!
