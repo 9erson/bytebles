@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Introduction to Python course, where we will discuss the IPO model and its application to programming. The IPO model is a fundamental concept in programming that describes the flow of data within a program. The model consists of three main components: Input, Processing, and Output. In this lesson, we will discuss these components and their implementation in Python.
+Welcome to the Introduction to Python course, where we will discuss the IPO model and its application to programming. The IPO model is a fundamental concept in programming that describes the flow of data within a ==program==. The model consists of three main components: Input, Processing, and Output. In this lesson, we will discuss these components and their implementation in Python.
 
 >[!info] Program
 > A set of instructions written in a programming language that a computer can interpret and execute to perform a specific task or solve a problem.
