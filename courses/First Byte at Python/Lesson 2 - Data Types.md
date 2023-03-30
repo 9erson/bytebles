@@ -1,6 +1,9 @@
 # Introduction
 
-Welcome to this Python lesson focusing on data types, type casting, and functions! In this lesson, we will dive deeper into the core concepts that play a crucial role in Python programming. Whether you are working with text data, performing mathematical operations, or writing reusable code, understanding these concepts is essential for efficient and effective Python development.
+Welcome to this Python lesson focusing on data types, type casting, and functions! In this lesson, we will dive deeper into the core concepts that play a crucial role in Python programming. Whether you are working with text data, performing mathematical operations, or writing ==reusable code==, understanding these concepts is essential for efficient and effective Python development.
+
+> [!Reusable Code]
+> "Reusable code" is a programming concept where pieces of code are written in such a way that they can be used multiple times in different parts of a program, or even in other projects, without having to rewrite the same code. This approach saves time, reduces the chance of errors, and makes the code more maintainable and easier to understand. In simple terms, reusable code is like a recipe that can be followed multiple times to create the same dish, without needing to come up with a new recipe each time.
 
 # Concepts
 
