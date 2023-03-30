@@ -147,6 +147,9 @@ print(round(3.14159, 2))
 1. Write a program that takes the temperature in Celsius for two different days and calculates the absolute difference in temperatures.
 2. A hiker starts and ends their hike at different altitudes (measured in meters). Calculate the absolute difference in altitude between the starting and ending points.
 
+## F-Strings
+
+
 # Byte to Go
 
 ### Pizza Calculator
@@ -163,9 +166,13 @@ TIP_RATE = 0.15        # Suggested tip rate
 ```
 
 > [!Constants]
-> In programming, constants are values that don't change during the execution of the program. They are given a name and a value at the beginning of the program, and then their value cannot be changed later. Constants are used to store values that are used repeatedly in the program, such as fixed prices, tax rates, or other important values.
+> In programming, constants are values that do not change during the execution of the program. They are often given a name in upper case letters to differentiate them from variables that can change.
 > 
-> For example, in the pizza calculator program, the `PIZZA_PRICE`, `TOPPING_PRICE`, `WINGS_PRICE`, `POP_PRICE`, `GST_RATE`, and `TIP_RATE` are all constants that have fixed values that are used in the calculations. By using constants, the program can easily adjust the values of these parameters in one place, rather than changing them repeatedly throughout the program.
+> In Python, there is no way to force a variable to be constant, but it is common practice to name constants in upper case letters to indicate that they should not be changed. However, this convention is not enforced by the Python language itself, and it is still possible to change the value of a constant if a programmer chooses to do so.
+> 
+> Constants are often used to store values that are used repeatedly in a program, such as fixed prices, tax rates, or other important values. By using constants, the program can easily adjust the values of these parameters in one place, rather than changing them repeatedly throughout the program.
+> 
+> For example, in the pizza calculator program, the `PIZZA_PRICE`, `TOPPING_PRICE`, `WINGS_PRICE`, `POP_PRICE`, `GST_RATE`, and `TIP_RATE` are all constants that have fixed values that are used in the calculations. These constants are named in upper case letters to indicate that they should not be changed, even though Python does not enforce this convention.
 
 Write a Python program that:
 
