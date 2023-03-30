@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
-                "mode": "preview",
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88349a4ceb499007",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md"
+                "file": "courses/First Byte at Python/Lesson 2 - Data Types.md"
               }
             }
           },
@@ -196,12 +195,12 @@
   },
   "active": "b893cd37b04e6208",
   "lastOpenFiles": [
+    "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
+    "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "Untitled.ipynb",
     "courses/First Byte at Python/Lesson 1 - The IPO Model - Slides.md",
-    "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
     "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
     "courses/First Byte at Python/Course Curriculum.md",
-    "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
     "courses/First Byte at Python/Lesson 4 - Loops.md",
     "courses/First Byte at Python/Answer Key.md",

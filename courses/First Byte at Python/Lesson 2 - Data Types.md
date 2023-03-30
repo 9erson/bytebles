@@ -8,9 +8,11 @@ A compiler is a program that translates source code into an executable program. 
 > [!info] Interpreter
 An interpreter is a program that reads and executes code line-by-line, without first converting it into an executable form. In Python, the interpreter reads the code line-by-line and executes it immediately.
 
-# Common Data Types
+# Concepts
 
-## Strings
+## Common Data Types
+
+### Strings
 
 In Python, a string is a sequence of characters. Strings are used to represent text data, and can be created using either single or double quotes. Here is an example:
 
@@ -18,7 +20,7 @@ In Python, a string is a sequence of characters. Strings are used to represent t
 my_string = 'Hello, World!'
 ```
 
-## Integers
+### Integers
 
 In Python, an integer is a whole number. Integers can be positive or negative, and can be used to represent quantities, counts, or indices. Here is an example:
 
@@ -28,7 +30,7 @@ my_integer = 42
 
 Integers can be used in mathematical operations, such as addition, subtraction, multiplication, and division.
 
-## Floats
+### Floats
 
 In Python, a float is a decimal number. Floats can be used to represent real numbers, and are often used in scientific or mathematical applications. Here is an example:
 
@@ -38,7 +40,7 @@ my_float = 3.14
 
 Floats can also be used in mathematical operations, and can be converted to integers using type casting.
 
-# Type Casting
+## Type Casting
 
 Type casting is a process of converting a value from one data type to another in Python. It can be helpful when we need to perform operations on values of different types.
 
@@ -74,6 +76,9 @@ my_integer = int(my_float)
 my_integer = 42
 my_float = float(my_integer)
 ```
+
+## Built-in Functions
+
 
 # Exercises
 
