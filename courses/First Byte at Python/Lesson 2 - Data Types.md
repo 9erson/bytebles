@@ -146,3 +146,27 @@ print(round(3.14159, 2))
 ### Chew the Byte
 1. Write a program that takes the temperature in Celsius for two different days and calculates the absolute difference in temperatures.
 2. A hiker starts and ends their hike at different altitudes (measured in meters). Calculate the absolute difference in altitude between the starting and ending points.
+
+# Byte to Go
+
+### Pizza Calculator
+
+You're working as a software engineer in a pizzeria, and your boss has asked you to build a program to calculate the price of a customer's order. Use the following constants:
+
+```python
+PIZZA_PRICE = 10.99    # Price of one pizza
+TOPPING_PRICE = 1.50   # Price of one topping
+WINGS_PRICE = 7.99     # Price of one serving of wings
+POP_PRICE = 1.50       # Price of one can of pop
+GST_RATE = 0.05        # GST rate
+TIP_RATE = 0.15        # Suggested tip rate
+```
+
+Write a Python program that:
+
+1.  Greets the customer with the message "Welcome to Slice of Heaven Pizza Calculator!"
+2.  Asks the customer for the number of servings of three different toppings (pepperoni, mushrooms, onions), the number of servings of wings, and the number of cans of pop they would like to order, using the `input()` function.
+3.  Calculates the suggested tip, which is equal to 15% of the subtotal (pizza price + wings price + pop price), rounded to 2 decimal places, using the `round()` function.
+4.  Asks the customer how much they would like to tip, with the suggested tip amount as a default value, using the `input()` function.
+5.  Calculates the subtotal, GST (5% of the subtotal), and total (subtotal + GST + tip), rounding the total to 2 decimal places using the `round()` function.
+6.  Displays the order summary to the customer, including the pizza price, topping price, wings price, pop price, subtotal, GST, suggested tip, tip amount, and total, each rounded to 2 decimal places.
