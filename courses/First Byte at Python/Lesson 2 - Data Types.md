@@ -1,6 +1,6 @@
 # Introduction
 
-
+Welcome to this Python lesson focusing on data types, type casting, and functions! In this lesson, we will dive deeper into the core concepts that play a crucial role in Python programming. Whether you are working with text data, performing mathematical operations, or writing reusable code, understanding these concepts is essential for efficient and effective Python development.
 
 # Concepts
 
