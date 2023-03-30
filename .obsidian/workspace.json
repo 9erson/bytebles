@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "88349a4ceb499007",
@@ -175,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
