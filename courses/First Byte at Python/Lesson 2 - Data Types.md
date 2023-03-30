@@ -106,25 +106,20 @@ print(len(ring_inscription)) # Output: 111
 
 ```
 
-### `upper()` - Converts all characters in a string to uppercase
+### `abs()` - Returns the absolute value of a number
 
 ```python
-print("this sounds more important when it's all in uppercase".upper())
-print("proceed with caution".upper())
-
+print(abs(-33))
+print(abs(-0.66))
+print(abs(35))
 ```
 
-### `lower()` - Converts all characters in a string to lowercase
+### `round()` - Rounds a number to the nearest integer or to the specified number of decimals
 
 ```python
-print("NO NEED TO YELL!")
+print(round(3.14159))
+print(round(3.14159, 2))
 ```
 
-### `capitalize()` - Capitalizes the first character of a string and makes the rest lowercase.
-
-```python
-print("gandalf the grey".capitalize())
-print("yoda the wise".capitalize())
-```
-
-### `replace()`
+### Chew the Byte
+1. 
