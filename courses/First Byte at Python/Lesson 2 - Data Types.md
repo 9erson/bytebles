@@ -123,3 +123,4 @@ print(round(3.14159, 2))
 
 ### Chew the Byte
 1. Write a program that takes the temperature in Celsius for two different days and calculates the absolute difference in temperatures.
+2. A hiker starts and ends their hike at different altitudes (measured in meters). Calculate the absolute difference in altitude between the starting and ending points.
