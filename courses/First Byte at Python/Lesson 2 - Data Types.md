@@ -159,7 +159,7 @@ print("My name is " + name + " and I'm " + str(age) + " years old.")
 
 However, this approach can be cumbersome and error-prone, especially when you need to format longer strings with multiple variables.
 
-Fortunately, Python 3.6 introduced a new and easier way to format strings: f-strings. F-strings allow you to embed expressions inside string literals using curly braces `{}`. For example:
+Fortunately, Python 3.6 introduced a new and easier way to format strings: f-strings. F-strings allow you to embed ==expressions== inside string literals using curly braces `{}`. For example:
 
 ```python
 name = "Alice"
@@ -167,7 +167,34 @@ age = 25
 print(f"My name is {name} and I'm {age} years old.")
 ```
 
-In this example, we use an f-string to format the string "My name is {name} and I'm {age} years old.". The expressions inside the curly braces are evaluated and replaced with their values, resulting in the same output as the previous example.
+> [!Expressions]
+> In Python, an expression is a piece of code that produces a value. An expression can be as simple as a single variable, or it can be a complex combination of variables, functions, and operators.
+> 
+> ```python
+> # A simple expression that assigns the value 5 to the variable x
+> x = 5
+> 
+> # A more complex expression that adds two numbers together
+> y = 10 + 7
+> 
+> # An expression that multiplies two variables and stores the result in a new variable
+> a = 3
+> b = 4
+> c = a * b
+> 
+> # An expression that concatenates two strings
+> hello = "Hello"
+> name = "Alice"
+> greeting = hello + " " + name
+> 
+> # An expression that divides two numbers and returns a float
+> m = 10
+> n = 3
+> result = m / n
+> ```
+> 
+
+In this example, we use an f-string to format the string `"My name is {name} and I'm {age} years old."`. The expressions inside the curly braces are evaluated and replaced with their values, resulting in the same output as the previous example.
 
 F-strings offer several advantages over string concatenation using the `+` operator. First, they are more concise and readable. Second, they automatically handle type conversion, so you don't need to manually convert variables to strings using the `str()` function. Third, they are more efficient because they only evaluate the expressions inside the curly braces once, whereas string concatenation may need to create multiple intermediate strings.
 
