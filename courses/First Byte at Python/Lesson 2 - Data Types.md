@@ -170,3 +170,28 @@ Write a Python program that:
 4.  Asks the customer how much they would like to tip, with the suggested tip amount as a default value, using the `input()` function.
 5.  Calculates the subtotal, GST (5% of the subtotal), and total (subtotal + GST + tip), rounding the total to 2 decimal places using the `round()` function.
 6.  Displays the order summary to the customer, including the pizza price, topping price, wings price, pop price, subtotal, GST, suggested tip, tip amount, and total, each rounded to 2 decimal places.
+
+This is what running the program may look like:
+
+```
+Welcome to Slice of Heaven Pizza Calculator!
+
+Please select your toppings:
+How many servings of pepperoni do you want?  1
+How many servings of mushrooms do you want?  0
+How many servings of onions do you want?  1
+How many servings of wings do you want? 1
+How many cans of pop do you want? 1
+How much would you like to tip (15% suggested)? $ 4
+Your order summary for Slice of Heaven Pizza:
+
+- Pizza price: $10.99
+- Topping price: $3.0
+- Wings price: $7.99
+- Pop price: $1.5
+- Subtotal: $23.48
+- GST (5%): $1.1740000000000002
+- Suggested tip (15%): $3.07
+- Tip: $4.0
+- Total: $28.65
+```
