@@ -109,7 +109,7 @@ Here are some important concepts related to functions:
 -   **Arguments or parameters**: Functions can take input values, known as arguments or parameters, to perform a specific task. These values are passed to the function inside the parentheses.
 -   **Built-in functions**: Python has a set of built-in functions, like `print`, `input`, and `type`, that come with the language and are always available for use.
 -   **Custom functions**: You can define your own functions, known as custom functions, to perform specific tasks. We'll learn how to write custom functions in a later lesson.
--   **Functions from external libraries**: External libraries are collections of functions that are not built into Python but can be imported and used in your code. Examples include `numpy`, `pandas`, and `matplotlib`.
+-   **Functions from external libraries**: External libraries are collections of functions that are not built into Python, but can be imported and used in your code. Examples include `numpy`, `pandas`, and `matplotlib`.
 -   **Optional parameters**: Some functions have optional parameters with default values. If you don't provide a value for an optional parameter, the function will use the default value.
 -   **Return value**: Functions can return a value, which is the result of their computation. The `return` keyword is used to specify the value to be returned.
 -   **Return type**: The return type is the data type of the value returned by a function. It can be any data type, such as `int`, `float`, `str`, or even custom data types.
