@@ -149,6 +149,29 @@ print(round(3.14159, 2))
 
 ## F-Strings
 
+As a recap, Python provides the `+` operator for string concatenation, which allows you to combine strings and variables. For example:
+
+```python
+name = "Alice"
+age = 25
+print("My name is " + name + " and I'm " + str(age) + " years old.")
+```
+
+However, this approach can be cumbersome and error-prone, especially when you need to format longer strings with multiple variables.
+
+Fortunately, Python 3.6 introduced a new and easier way to format strings: f-strings. F-strings allow you to embed expressions inside string literals using curly braces `{}`. For example:
+
+```python
+name = "Alice"
+age = 25
+print(f"My name is {name} and I'm {age} years old.")
+```
+
+In this example, we use an f-string to format the string "My name is {name} and I'm {age} years old.". The expressions inside the curly braces are evaluated and replaced with their values, resulting in the same output as the previous example.
+
+F-strings offer several advantages over string concatenation using the `+` operator. First, they are more concise and readable. Second, they automatically handle type conversion, so you don't need to manually convert variables to strings using the `str()` function. Third, they are more efficient because they only evaluate the expressions inside the curly braces once, whereas string concatenation may need to create multiple intermediate strings.
+
+Overall, f-strings are a convenient and efficient way to format strings in Python, and are recommended over string concatenation using the `+` operator.
 
 # Byte to Go
 
