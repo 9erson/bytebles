@@ -151,7 +151,7 @@ print(round(3.14159, 2))
 
 ### Pizza Calculator
 
-You're working as a software engineer in a pizzeria, and your boss has asked you to build a program to calculate the price of a customer's order. Use the following constants:
+You're working as a software engineer in a pizzeria, and your boss has asked you to build a program to calculate the price of a customer's order. Use the following ==constants==:
 
 ```python
 PIZZA_PRICE = 10.99    # Price of one pizza
@@ -161,6 +161,11 @@ POP_PRICE = 1.50       # Price of one can of pop
 GST_RATE = 0.05        # GST rate
 TIP_RATE = 0.15        # Suggested tip rate
 ```
+
+> [!Constants]
+> In programming, constants are values that don't change during the execution of the program. They are given a name and a value at the beginning of the program, and then their value cannot be changed later. Constants are used to store values that are used repeatedly in the program, such as fixed prices, tax rates, or other important values.
+> 
+> For example, in the pizza calculator program, the `PIZZA_PRICE`, `TOPPING_PRICE`, `WINGS_PRICE`, `POP_PRICE`, `GST_RATE`, and `TIP_RATE` are all constants that have fixed values that are used in the calculations. By using constants, the program can easily adjust the values of these parameters in one place, rather than changing them repeatedly throughout the program.
 
 Write a Python program that:
 
