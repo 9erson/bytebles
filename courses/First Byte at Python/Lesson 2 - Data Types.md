@@ -87,28 +87,44 @@ my_integer = 42
 my_float = float(my_integer)
 ```
 
+### Chew the Byte
+1. Write a Python program that prompts the user to enter a weight in kilograms, and converts it to pounds. The conversion factor is 2.205 pounds per kilogram.
+2. Write a Python program that prompts the user to enter a temperature in Celsius, and converts it to Fahrenheit. The conversion formula is `F = C * 1.8 + 32`.
 
+## Functions
 
-## Built-in Functions
+Functions are predefined pieces of code that perform a specific task. Python has many built-in functions. We have already been using some such as `print`, `input`, and `type`. Let's learn some more.
 
 ### `len()` - Returns the length of a string
+
 ```python
-# Star Wars Example
 quote = "May the Force be with you"
 print(len(quote)) # Output: 24
 
-# Lord of the Rings Example
 ring_inscription = "One ring to rule them all, one ring to find them, one ring to bring them all, and in the darkness bind them."
 print(len(ring_inscription)) # Output: 111
 
 ```
 
+### `upper()` - Converts all characters in a string to uppercase
 
-# Exercises
+```python
+print("this sounds more important when it's all in uppercase".upper())
+print("proceed with caution".upper())
 
-1. Write a Python program that prompts the user to enter a weight in kilograms, and converts it to pounds. The conversion factor is 2.205 pounds per kilogram.
-2. Write a Python program that prompts the user to enter a temperature in Celsius, and converts it to Fahrenheit. The conversion formula is `F = C * 1.8 + 32`.
+```
 
-# Summary
+### `lower()` - Converts all characters in a string to lowercase
 
-In this lesson, we learned about the different data types available in Python, including strings, integers, and floats. We also learned about type casting, which is the process of converting a value of one data type to another.
+```python
+print("NO NEED TO YELL!")
+```
+
+### `capitalize()` - Capitalizes the first character of a string and makes the rest lowercase.
+
+```python
+print("gandalf the grey".capitalize())
+print("yoda the wise".capitalize())
+```
+
+### `replace()`
