@@ -79,6 +79,9 @@ my_float = float(my_integer)
 
 ## Built-in Functions
 
+### `len()` - Returns the length of a string
+
+
 
 # Exercises
 
