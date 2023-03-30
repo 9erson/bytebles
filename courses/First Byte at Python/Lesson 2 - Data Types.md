@@ -80,7 +80,16 @@ my_float = float(my_integer)
 ## Built-in Functions
 
 ### `len()` - Returns the length of a string
+```python
+# Star Wars Example
+quote = "May the Force be with you"
+print(len(quote)) # Output: 24
 
+# Lord of the Rings Example
+ring_inscription = "One ring to rule them all, one ring to find them, one ring to bring them all, and in the darkness bind them."
+print(len(ring_inscription)) # Output: 111
+
+```
 
 
 # Exercises
