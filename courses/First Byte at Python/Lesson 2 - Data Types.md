@@ -9,7 +9,7 @@ Welcome to this Python lesson focusing on data types, type casting, and function
 
 ## Data Types
 
-Python is a versatile and powerful programming language that offers a wide range of built-in data types to help you store and manipulate information. Understanding these data types is crucial for writing effective Python code, as they determine how values can be stored, processed, and interacted with in your programs. In this section, we will discuss some of the most commonly used data types in Python, including strings, integers, and floats, and explore their properties and use cases through examples.
+Python is a versatile and powerful programming language that offers a wide range of built-in data types to help you store and manipulate information. Understanding these data types is crucial for writing effective Python code, as they determine how values can be stored, processed, and interacted within your programs. In this section, we will discuss some of the most commonly used data types in Python, including strings, integers, and floats, and explore their properties and use cases through examples.
 
 Now, let's dive into each of these data types in more detail:
 
