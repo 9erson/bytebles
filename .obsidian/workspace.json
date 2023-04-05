@@ -8,43 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21e0f6dc6eae813f",
+            "id": "20f0468d73e0ef75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 1 - The IPO Model - Slides.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b893cd37b04e6208",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc8d64a906c7ab09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2023-04-05 15.21.02.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
+                "file": "Excalidraw/Drawing 2023-04-05 15.21.02.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
+                "file": "Excalidraw/Drawing 2023-04-05 15.21.02.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md"
+                "file": "Excalidraw/Drawing 2023-04-05 15.21.02.excalidraw.md"
               }
             }
           },
@@ -193,10 +166,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b893cd37b04e6208",
+  "active": "20f0468d73e0ef75",
   "lastOpenFiles": [
-    "courses/First Byte at Python/Lesson 2 - Data Types.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2023-04-05 15.21.02.excalidraw.md",
+    "Excalidraw",
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
+    "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "courses/First Byte at Python/Lesson 1 - The IPO Model - Slides.md",
     "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
     "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
