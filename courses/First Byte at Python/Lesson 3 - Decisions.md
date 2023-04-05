@@ -1,8 +1,6 @@
-# Introduction
 
-Booleans are the most basic type of data in Python. They show whether a value is true or false. They are often used in control flow statements, like conditional statements, to make decisions based on whether a condition is true or false. In this Python lesson, we will learn about the boolean data type, comparison operators, logical operators, and conditional statements.
-
-# Boolean Data Type
+# Concepts
+## Boolean Data Type
 
 In Python, the boolean data type is represented by the bool class, and it has two possible values: True and False. Booleans can be assigned to variables, just like any other data type:
 
@@ -13,9 +11,8 @@ y = False
 
 Booleans can also be created by using comparison operators and logical operators, which we will cover in the next sections.
 
-## Boolean Related Operators
 
-### Comparison Operators
+## Comparison Operators
 
 Comparison operators are used to compare two values and return a boolean value indicating whether the comparison is true or false. Here are the comparison operators in Python:
 
@@ -39,7 +36,7 @@ print(x == y)  # Output: False
 print(x != y)  # Output: True
 ```
 
-### Logical Operators
+## Logical Operators
 
 Logical operators are used to combine boolean values and return a boolean value. Here are the logical operators in Python:
 
