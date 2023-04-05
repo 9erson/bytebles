@@ -36,6 +36,13 @@ print(x == y)  # Output: False
 print(x != y)  # Output: True
 ```
 
+  > [!hint] Hint
+  > ### The Modulo Operator
+To check whether a number is even or odd, you can use the modulo operator %. The modulo operator returns the remainder of a division operation. If a number is even, it will have no remainder when divided by 2. If a number is odd, it will have a remainder of 1 when divided by 2. Here are two examples of using the modulo operator:
+> ```python
+10 % 2
+5 % 2
+
 ### Chew the Byte
 1. Write a boolean expression to determine if the variable `temp` is freezing. (0 degrees Celsius).
 2. Write a boolean expression to determine if a number is odd.
@@ -68,6 +75,7 @@ print(not x > y)        # Output: False
 
 ### Chew the Byte
 1. Write a boolean expression to determine if the variable `year` is a leap year. 1.  A year is a leap year if it is divisible by 4, but not divisible by 100, unless it is divisible by 400.
+2. Write a boolean expression to determine if a triangle is valid: Given three side lengths `a`, `b`, and `c`, determine if they form a valid triangle. A triangle is valid if the sum of the lengths of any two sides is greater than the length of the third side.
 
 ## Conditional Statements
 
@@ -128,17 +136,10 @@ else:
 ```
 
 
-# Exercises
+### Chew the Byte
 
-- Write a Python program that asks the user to enter a number, and checks whether the number is even or odd. If the number is even, the program should print "The number is even." If the number is odd, the program should print "The number is odd."
-  > [!hint] Hint
-  > ### The Modulo Operator
-To check whether a number is even or odd, you can use the modulo operator %. The modulo operator returns the remainder of a division operation. If a number is even, it will have no remainder when divided by 2. If a number is odd, it will have a remainder of 1 when divided by 2. Here are two examples of using the modulo operator:
-> ```python
-10 % 2
-5 % 2
-
-- Write a Python program that asks the user for their age and prints out their corresponding life stage based on the following criteria:
+1. Write a Python program that asks the user to enter a number, and checks whether the number is even or odd. If the number is even, the program should print "The number is even." If the number is odd, the program should print "The number is odd."
+2. Write a Python program that asks the user for their age and prints out their corresponding life stage based on the following criteria:
 	- If the age is between 0 and 2 (inclusive), print "Infant"
 	- If the age is between 3 and 4 (inclusive), print "Toddler"
 	- If the age is between 5 and 12 (inclusive), print "Child"
@@ -148,7 +149,3 @@ To check whether a number is even or odd, you can use the modulo operator %. The
 > [!info] Inclusive
 > Inclusive refers to the property of encompassing the endpoint values of a given range or category. For example, in the code provided, the age ranges are defined as inclusive, meaning that if an age falls on the upper or lower end of a given range, it will be classified as belonging to the corresponding life stage.
 
-
-# Summary
-
-In this lesson, we covered the boolean data type, comparison operators, logical operators, and conditional statements in Python.
