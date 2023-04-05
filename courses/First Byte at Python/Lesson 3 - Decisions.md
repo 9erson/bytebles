@@ -37,7 +37,9 @@ print(x != y)  # Output: True
 ```
 
 ### Chew the Byte
-
+1. Write a boolean expression to determine if the variable `temp` is freezing. (0 degrees Celsius).
+2. Write a boolean expression to determine if a number is odd.
+3. Write a boolean expression to determine if the variable `age` is an adult.
 
 ## Logical Operators
 
@@ -63,6 +65,9 @@ print(x > y and z > y)  # Output: True
 print(x > y or z < y)   # Output: True
 print(not x > y)        # Output: False
 ```
+
+### Chew the Byte
+1. Write a boolean expression to determine if the variable `year` is a leap year. 1.  A year is a leap year if it is divisible by 4, but not divisible by 100, unless it is divisible by 400.
 
 ## Conditional Statements
 
