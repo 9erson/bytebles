@@ -1,5 +1,18 @@
+# Introduction
+
+Welcome to this exciting lesson on working with booleans, comparison operators, logical operators, and conditional statements in Python! In this lesson, you will learn how to work with the boolean data type, compare values using various comparison operators, combine boolean values with logical operators, and create conditional statements to execute different blocks of code based on the truthiness of conditions.
+
+What you will learn:
+
+1.  Understanding the boolean data type: You will learn how to represent boolean values in Python using the `bool` class and how to assign boolean values to variables.
+2.  Using comparison operators: You will explore the different comparison operators in Python, such as equal, not equal, greater than, and less than. You will also learn how to use these operators in various expressions.
+3.  Combining boolean values with logical operators: You will learn about the logical operators `and`, `or`, and `not`, and how to use them to create more complex boolean expressions.
+4.  Creating conditional statements: You will learn how to use `if`, `elif`, and `else` statements in Python to execute different blocks of code based on the truthiness of conditions. Additionally, you will practice these concepts with various examples and exercises, like creating a Pizza calculator, to solidify your understanding.
+
+By the end of this lesson, you will have a strong foundation in working with boolean values, comparison and logical operators, and conditional statements in Python, allowing you to create more versatile and powerful programs.
 
 # Concepts
+
 ## Boolean Data Type
 
 In Python, the boolean data type is represented by the bool class, and it has two possible values: True and False. Booleans can be assigned to variables, just like any other data type:
