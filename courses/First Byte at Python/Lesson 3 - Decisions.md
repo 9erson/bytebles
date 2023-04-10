@@ -171,24 +171,48 @@ You have been asked to write a program for "Slice of Heaven Pizza," a local pizz
 14. Calculate the total amount by adding the subtotal, GST, and tip, and applying the discounts.
 15. If the customer has not ordered any add-ons (wings or pop), display a friendly message to remind them to try these delicious options next time.
 16. Display the order summary to the customer, including the pizza type and size, wings, pop type and size, subtotal, GST, discount, tip amount, and total.
-17. By following these detailed instructions, you'll create a fun, interactive, and user-friendly Pizza calculator for "Slice of Heaven Pizza" that practices using different operators in conditional statements. Enjoy coding, and remember to treat yourself to a delicious slice of pizza afterward!
+17. By following these detailed instructions, you'll create a fun, interactive, and user-friendly Pizza calculator for "Slice of Heaven Pizza" that practices using different operators in conditional statements. Enjoy coding, and remember to treat yourself to a delicious slice of pizza afterwards!
 
-To give you a head start, I've done step 1 for you:
+To give you a head start, here is the first part of the program:
 
 ```python
-# Constants for prices 
-PEPPERONI_PIZZA_PRICE = 10.00 
-HAWAIIAN_PIZZA_PRICE = 12.00 
-VEGETARIAN_PIZZA_PRICE = 9.00 
-SMALL_SIZE_PRICE = 0 
-MEDIUM_SIZE_PRICE = 2.00 
-LARGE_SIZE_PRICE = 4.00 
-WINGS_6_PRICE = 5.00 
-WINGS_8_PRICE = 6.50 
-WINGS_12_PRICE = 9.50 
-CAN_PRICE = 1.25 
-BOTTLE_500ML_PRICE = 2.00 
-BOTTLE_2L_PRICE = 3.50
+# Pizza prices
+PEPPERONI_PIZZA_PRICE_SMALL = 8.50
+PEPPERONI_PIZZA_PRICE_MEDIUM = 12.50
+PEPPERONI_PIZZA_PRICE_LARGE = 16.50
+
+HAWAIIAN_PIZZA_PRICE_SMALL = 9.00
+HAWAIIAN_PIZZA_PRICE_MEDIUM = 13.50
+HAWAIIAN_PIZZA_PRICE_LARGE = 17.50
+
+VEGETARIAN_PIZZA_PRICE_SMALL = 7.50
+VEGETARIAN_PIZZA_PRICE_MEDIUM = 11.50
+VEGETARIAN_PIZZA_PRICE_LARGE = 15.50
+
+# Wings prices
+WINGS_PRICE_6 = 5.00
+WINGS_PRICE_8 = 6.50
+WINGS_PRICE_12 = 9.00
+
+# Pop prices
+POP_PRICE_CAN = 1.00
+POP_PRICE_500ML = 1.50
+POP_PRICE_2L = 3.00
+
+# Discount thresholds
+DISCOUNT_THRESHOLD = 30
+DISCOUNT_PERCENTAGE = 0.10
+
+# Special offer for large Vegetarian pizza and 2L pop
+SPECIAL_OFFER_DISCOUNT = 2
+
+# Coupon codes and discounts
+COUPON_SAVE5 = 5
+COUPON_SAVE10 = 10
+
+# GST rate
+GST_RATE = 0.05
+
 ```
 
 > [!Constants]
@@ -196,7 +220,7 @@ BOTTLE_2L_PRICE = 3.50
 > 
 > The convention of using uppercase characters for constants is a widely followed practice in many programming languages, including Python. This convention makes it easier for developers to identify and distinguish constants from variables, which usually use lowercase characters. By using all uppercase characters, developers can quickly recognize that the value should not be changed, ensuring that the code is more understandable and less prone to errors.
 > 
-> In the provided code, we have defined several constants for prices, such as `PEPPERONI_PIZZA_PRICE`, `HAWAIIAN_PIZZA_PRICE`, `VEGETARIAN_PIZZA_PRICE`, and various other prices for different items and options. These constants represent the fixed prices for each item or option, which should not change during the execution of the program. The use of constants in this context ensures that any changes to the prices can be made in a single location, making the code more maintainable and less prone to errors. It also improves the readability of the code, as it is clear that these values should not be modified during the program execution.
+> In the provided code, we have defined several constants for prices, such as `PEPPERONI_PIZZA_PRICE_MEDIUM`, `HAWAIIAN_PIZZA_PRICE_SMALL`, `VEGETARIAN_PIZZA_PRICE_LARGE`, and various other prices for different items and options. These constants represent the fixed prices for each item or option, which should not change during the execution of the program. The use of constants in this context ensures that any changes to the prices can be made in a single location, making the code more maintainable and less prone to errors. It also improves the readability of the code, as it is clear that these values should not be modified during the program execution.
 > 
 > In some programming languages, constants are defined using special keywords that enforce immutability, meaning their values cannot be changed once assigned. This helps prevent accidental modification of these values, which could lead to unexpected behavior or errors. Attempting to change the value of a constant in such languages would result in a compilation failure, alerting the developer of the issue before the program is executed.
 > 
