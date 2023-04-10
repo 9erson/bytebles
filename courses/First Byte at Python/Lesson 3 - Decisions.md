@@ -153,21 +153,25 @@ else:
 
 ## Pizza Calculator - II
 
-Write a python program, similar to the last one, that asks the user details for their order, then calculates their total. Here are the detailed requirements.
+You have been asked to write a program for "Slice of Heaven Pizza," a local pizzeria, to help customers calculate their order total, including discounts, GST, and tip. In this fun and engaging exercise, you'll create a Pizza calculator that incorporates conditional statements using >, <, and, or, and not operators. Here are the detailed instructions for the enhanced Pizza calculator:
 
-1.  Define ==constants== for pizza prices (Pepperoni, Hawaiian, Vegetarian), pizza sizes, wings, and pop sizes and types.
-2.  Greet the customer with a welcome message.
-3.  Ask the customer for their pizza choice (Pepperoni, Hawaiian, or Vegetarian) and store it in a variable.
-4.  Ask the customer for their pizza size (small, medium, or large) and store it in a variable.
-5.  Calculate the pizza price based on the customer's choices.
-6.  Ask the customer if they would like wings, and if yes, ask for the number of wings (6, 8, or 12) and calculate the wings price.
-7.  Ask the customer if they would like pop, and if yes, ask for the size (can, 500ml, or 2L) and type (Coke, Sprite, etc.) of pop, then calculate the pop price.
-8.  Calculate the subtotal by adding the prices of pizza, wings, and pop.
-9.  Calculate the suggested tip amounts for 10%, 15%, and 20%.
-10. Prompt the customer to choose from the suggested tip amounts or input their own tip amount.
-11.  Calculate the GST (5% of the subtotal).
-12.  Calculate the total amount by adding the subtotal, GST, and tip.
-13.  Display the order summary, including the pizza price, wings price, pop price, subtotal, GST, tip amount, and total.
+1. Begin by greeting the customer with a welcome message, such as "Welcome to Slice of Heaven Pizza Calculator!".
+2. Prompt the customer to choose a pizza type (e.g., Pepperoni, Hawaiian, Vegetarian) and a pizza size (e.g., Small, Medium, Large).
+3. Ask the customer if they would like to order wings. If yes, prompt them to enter the number of wings (e.g., 6, 8, or 12).
+4. Ask the customer if they would like to order pop. If yes, prompt them to choose a pop size (e.g., Can, 500ml, or 2L) and a pop type (e.g., Coke, Sprite, etc.).
+5. Request the customer to enter a coupon code if they have one (leave blank if not).
+6. Calculate the prices for the chosen pizza, wings, and pop based on the customer's inputs. Use constants for the prices of each item and option.
+7. Calculate the order subtotal by adding the prices of pizza, wings, and pop.
+8. If the order subtotal is greater than $30, apply a 10% discount on the subtotal.
+9. Check if the customer has ordered a large Pepperoni pizza and a 2L pop. If they have, congratulate them on unlocking a special offer and apply an additional $2 discount.
+10. Apply a discount based on the customer's entered coupon code: $5 off for "SAVE5" or $10 off for "SAVE10".
+11. Calculate the suggested tip amounts for 10%, 15%, and 20% of the subtotal, and display the suggested tips to the customer.
+12. Prompt the customer to choose from the suggested tip amounts (10%, 15%, 20%) or input their own custom tip amount.
+13. Calculate the GST as 5% of the subtotal.
+14. Calculate the total amount by adding the subtotal, GST, and tip, and applying the discounts.
+15. If the customer has not ordered any add-ons (wings or pop), display a friendly message to remind them to try these delicious options next time.
+16. Display the order summary to the customer, including the pizza type and size, wings, pop type and size, subtotal, GST, discount, tip amount, and total.
+17. By following these detailed instructions, you'll create a fun, interactive, and user-friendly Pizza calculator for "Slice of Heaven Pizza" that practices using different operators in conditional statements. Enjoy coding, and remember to treat yourself to a delicious slice of pizza afterward!
 
 To give you a head start, I've done step 1 for you:
 
