@@ -149,3 +149,41 @@ else:
 > [!info] Inclusive
 > Inclusive refers to the property of encompassing the endpoint values of a given range or category. For example, in the code provided, the age ranges are defined as inclusive, meaning that if an age falls on the upper or lower end of a given range, it will be classified as belonging to the corresponding life stage.
 
+# Byte to Go
+
+## Pizza Calculator - II
+
+Write a python program, similar to the last one, that asks the user details for their order, then calculates their total. Here are the detailed requirements.
+
+1.  Define prices for pizza prices (Pepperoni, Hawaiian, Vegetarian), pizza sizes, wings, and pop sizes and types.
+2.  Greet the customer with a welcome message.
+3.  Ask the customer for their pizza choice (Pepperoni, Hawaiian, or Vegetarian) and store it in a variable.
+4.  Ask the customer for their pizza size (small, medium, or large) and store it in a variable.
+5.  Calculate the pizza price based on the customer's choices.
+6.  Ask the customer if they would like wings, and if yes, ask for the number of wings (6, 8, or 12) and calculate the wings price.
+7.  Ask the customer if they would like pop, and if yes, ask for the size (can, 500ml, or 2L) and type (Coke, Sprite, etc.) of pop, then calculate the pop price.
+8.  Calculate the subtotal by adding the prices of pizza, wings, and pop.
+9.  Calculate the suggested tip amounts for 10%, 15%, and 20%.
+10. Prompt the customer to choose from the suggested tip amounts or input their own tip amount.
+11.  Calculate the GST (5% of the subtotal).
+12.  Calculate the total amount by adding the subtotal, GST, and tip.
+13.  Display the order summary, including the pizza price, wings price, pop price, subtotal, GST, tip amount, and total.
+
+To give you a head start, I've done step 1 for you:
+
+```python
+# Constants for prices 
+PEPPERONI_PIZZA_PRICE = 10.00 
+HAWAIIAN_PIZZA_PRICE = 12.00 
+VEGETARIAN_PIZZA_PRICE = 9.00 
+SMALL_SIZE_PRICE = 0 
+MEDIUM_SIZE_PRICE = 2.00 
+LARGE_SIZE_PRICE = 4.00 
+WINGS_6_PRICE = 5.00 
+WINGS_8_PRICE = 6.50 
+WINGS_12_PRICE = 9.50 
+CAN_PRICE = 1.25 
+BOTTLE_500ML_PRICE = 2.00 
+BOTTLE_2L_PRICE = 3.50
+```
+
