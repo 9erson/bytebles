@@ -155,7 +155,7 @@ else:
 
 Write a python program, similar to the last one, that asks the user details for their order, then calculates their total. Here are the detailed requirements.
 
-1.  Define prices for pizza prices (Pepperoni, Hawaiian, Vegetarian), pizza sizes, wings, and pop sizes and types.
+1.  Define ==constants== for pizza prices (Pepperoni, Hawaiian, Vegetarian), pizza sizes, wings, and pop sizes and types.
 2.  Greet the customer with a welcome message.
 3.  Ask the customer for their pizza choice (Pepperoni, Hawaiian, or Vegetarian) and store it in a variable.
 4.  Ask the customer for their pizza size (small, medium, or large) and store it in a variable.
@@ -186,4 +186,28 @@ CAN_PRICE = 1.25
 BOTTLE_500ML_PRICE = 2.00 
 BOTTLE_2L_PRICE = 3.50
 ```
+
+> [!Constants]
+> In programming, a constant is a value that does not change throughout the execution of a program. It is a fixed value that remains the same throughout the life cycle of the program. Constants are used to represent values that should not be modified or reassigned during the program execution, providing a way to improve the readability and maintainability of the code.
+> 
+> The convention of using uppercase characters for constants is a widely followed practice in many programming languages, including Python. This convention makes it easier for developers to identify and distinguish constants from variables, which usually use lowercase characters. By using all uppercase characters, developers can quickly recognize that the value should not be changed, ensuring that the code is more understandable and less prone to errors.
+> 
+> In the provided code, we have defined several constants for prices, such as `PEPPERONI_PIZZA_PRICE`, `HAWAIIAN_PIZZA_PRICE`, `VEGETARIAN_PIZZA_PRICE`, and various other prices for different items and options. These constants represent the fixed prices for each item or option, which should not change during the execution of the program. The use of constants in this context ensures that any changes to the prices can be made in a single location, making the code more maintainable and less prone to errors. It also improves the readability of the code, as it is clear that these values should not be modified during the program execution.
+> 
+> In some programming languages, constants are defined using special keywords that enforce immutability, meaning their values cannot be changed once assigned. This helps prevent accidental modification of these values, which could lead to unexpected behavior or errors. Attempting to change the value of a constant in such languages would result in a compilation failure, alerting the developer of the issue before the program is executed.
+> 
+> For example, languages like C, C++, and Java use the `const` or `final` keyword to define constants:
+> 
+> C and C++:
+> 
+> ```c
+> const int SPEED_OF_LIGHT = 299792458;
+> ```
+> 
+> Java:
+> ```java
+> public static final int SPEED_OF_LIGHT = 299792458;
+> ```
+> 
+> Python, however, does not have a built-in way to enforce immutability of variables. There is no specific keyword or feature to prevent the modification of a constant value. Instead, the convention of using uppercase characters for constant names is followed to signal to other developers that the value should not be modified. This convention relies on the programmer's discipline not to change the value, as the language itself does not enforce immutability.
 
