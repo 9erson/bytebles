@@ -207,7 +207,9 @@ Overall, f-strings are a convenient and efficient way to format strings in Pytho
 You're working as a software engineer in a pizzeria, and your boss has asked you to build a program to calculate the price of a customer's order. Use the following ==constants==:
 
 ```python
-PIZZA_PRICE = 10.99    # Price of one pizza
+PIZZA_PRICE_SMALL = 7.99    # Price of a small pizza
+PIZZA_PRICE_MEDIUM = 11.99    # Price of a small pizza
+PIZZA_PRICE_LARGE = 15.99    # Price of a small pizza
 TOPPING_PRICE = 1.50   # Price of one topping
 WINGS_PRICE = 7.99     # Price of one serving of wings
 POP_PRICE = 1.50       # Price of one can of pop
