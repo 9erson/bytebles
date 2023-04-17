@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
+                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
+                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md",
+                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 3 - Decisions.md"
+                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md"
               }
             }
           },
@@ -170,8 +170,11 @@
   },
   "active": "20f0468d73e0ef75",
   "lastOpenFiles": [
-    "courses/First Byte at Python/Lesson 2 - Data Types.md",
+    "courses/First Byte at Python/Lesson 4.md",
+    "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
+    "Lesson 4 - Data Types and Expressions - A Deep Dive.md",
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
+    "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "Excalidraw/Drawing 2023-04-05 15.21.02.excalidraw.md",
     "Pasted Image 20230405153603_010.png",
     "Untitled.canvas",
@@ -188,7 +191,6 @@
     "How to install Thonny.md",
     "link to the Teams session.md",
     "Lesson.md",
-    "courses/First Byte at Python/Untitled.md",
     "README.md",
     "courses/First Byte at Python",
     "courses"
