@@ -80,20 +80,45 @@
 					- Breakdown totals
 					- Goodbye message
 	- Phase 2
-		- Add ability for user to enter in tip
+		- Outline
+			- Add ability for user to enter in tip
+				- Prompt user for tip percentage
+				- Cast to float
 		- Code editor
 			- After Welcome message
 			- Create tip_percentage variable
 			- Input
 				- Enter tip percentage (example: 15 for 15%):
+			- Input returns string
+			- Need tip percentage in a future calculation - for total
+			- We can only use integers or floats for calculations
+			- Not strings
 			- Cast or Convert to float
-			- In order to calculate the total later
-			- 
+			- Run code
+				- Prompted for a tip percentage
+				- I'm going to say 20%
+				- Enter
+				- I can see the totals, including the tip I just entered in
 	- Phase 3
-		- Support for 3 Pizza sizes
-		- Set constants
-		- Prompt user for size
-		- Calculate pizza price
+		- Outline
+			- Set prices for cost of small, medium and large pizzas
+			- Prompt customer to choose a pizza size
+			- Set sub-total based on choice
+		- Code Editor
+			- Set prices for 3 pizza sizes
+				- small, medium and large
+			- Create pizza size variable
+				- `pizza_size = input("Enter size of pizza (small, medium, or large): ").lower()`
+			- Prompt user for size
+				- Input function
+				- Lower function
+					- unlike other functions, needs a dot.
+					- converts input to lower case
+					- still works if user uses mix cases
+			- Calculate sub-title based on customer choice
+				- if pizza size is small, use the small price
+				- else if size is medium, use medium price
+				- else user large price
 	- Phase 4
 		- Support for 3 Pizza types
 		- Update constants
