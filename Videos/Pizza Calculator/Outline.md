@@ -63,10 +63,14 @@
 			- Parenthesis overrides default order of operations
 	- Print total
 - Script Outline
-	- Step 1
+	- Phase 1
 		- Display welcome message
-			- Welcome to our Pizzaria! What would you like to have?
+			- `print("Welcome to the Pizza Order Calculator!")`
 		- Talk about print function
+			- Built in function
+			- Takes in a string
+				- Surrounded by quotes
+			- Displays the string to the screen
 		- Create variables and assign values for:
 			- pizza_total
 			- Sub-total
@@ -76,14 +80,16 @@
 			- total = sub_total + gst + tip
 		- Display breakdown
 		- Display goodbye message
-	- Step 2
+			- `print("\nThank you for using the Pizza Order Calculator!")`
+		- Run code
+	- Phase 2
 		- Add ability for user to enter in tip
-	- Step 3
+	- Phase 3
 		- Support for 3 Pizza sizes
 		- Set constants
 		- Prompt user for size
 		- Calculate pizza price
-	- Step 4
+	- Phase 4
 		- Support for 3 Pizza types
 		- Update constants
 		- Prompt user for type
