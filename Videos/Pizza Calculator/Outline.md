@@ -65,7 +65,7 @@
 					- Bill breakdown
 				- Sub-total
 					- We use f strings.
-					- Don't need to convert floats or ints to string.
+					- Don't need to convert floats or ints to string - required for string concatenation.
 				- GST
 					- We can round the totals with the f string.
 					- This means - format this float accurate to 2 decimal places
@@ -75,6 +75,10 @@
 			- Display goodbye message
 				- `print("\nThank you for using the Pizza Order Calculator!")`
 			- Run code
+				- I see
+					- Welcome message
+					- Breakdown totals
+					- Goodbye message
 	- Phase 2
 		- Add ability for user to enter in tip
 		- Code editor
