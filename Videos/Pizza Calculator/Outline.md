@@ -167,3 +167,19 @@
 			- Prompt user for type
 			- Update calculations
 			- Explain nested if statements
+				- Before
+					- If the user wanted a small pizza
+						- Only one possibility
+					- Now
+						- 3 possibilities
+							- Pepperoni
+							- Hawaiian
+							- Vegetarian
+					- Another set of if, elif and else
+						- One for each type
+						- Within the if statement for small pizzas
+						- Covers 
+							- Small Pepperoni
+							- Small Hawaiian
+							- Small Vegetarian
+				-
