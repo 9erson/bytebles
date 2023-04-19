@@ -101,9 +101,16 @@
 				- I can see the totals, including the tip I just entered in
 	- Phase 3
 		- Outline
-			- Set prices for cost of small, medium and large pizzas
-			- Prompt customer to choose a pizza size
-			- Set sub-total based on choice
+			- Introduce Pizza Sizes
+				- Set prices for cost of small, medium and large pizzas
+				- Use of constants
+					- Technically variables
+					- All uppercase
+					- Convention to hint to the programmer that value should not be updated
+					- In some other languages, if something is set to a constant,
+						- impossible to change
+				- Prompt customer to choose a pizza size
+				- Set sub-total based on choice
 		- Code Editor
 			- Set prices for 3 pizza sizes
 				- small, medium and large
@@ -113,15 +120,50 @@
 				- Input function
 				- Lower function
 					- unlike other functions, needs a dot.
-					- converts input to lower case
-					- still works if user uses mix cases
+					- goes on end of what it needs to affect
+					- Converts input to lower case
+					- Python distinguishes with case
+						- small is not the same as SMALL
+					- Ensures that a lowercase value is assigned to pizza_size variable
 			- Calculate sub-title based on customer choice
+				- We use if, elif, else statements
 				- if pizza size is small, use the small price
+					- Note the colon at the end of the if statement
+					- Also note the following line is indented
+					- You can use spaces, or a tab
+					- Must be consistent
 				- else if size is medium, use medium price
-				- else user large price
+					- With Python, else if is shortened to elif
+					- some languages don't shorten it
+				- else use large price
+					- if and elif need boolean expressions 
+					- evaluate to True or False
+					- can contain combinations of comparative operators (<, > etc), logical operators (and, or, etc).
+			- Run code
+				- I can now pick a size
+					- Medium
+				- Tip
+					- 20
+				- See breakdown & total
+				- Run code again
+				- Size
+					- Large
+				- Tip
+					- 10
+				- See breakdown
 	- Phase 4
-		- Support for 3 Pizza types
-		- Update constants
-		- Prompt user for type
-		- Update calculations
-		- Explain nested if statements
+		- Outline
+			- Introduce Pizza Types
+				- Update prices for pizza size AND type
+				- Prompt customer to choose a pizza type
+				- Update if, elif, else logic to support Pizza Type
+		- Code editor
+			- Introduce 3 pizza types - pepperoni, hawaiian and vegetarian
+			- Introduce variables for type and size
+				- `PEPPERONI_SMALL = 10.0`
+			- Separate them by __
+			- In python, variable names can't have spaces
+			- 9 unique 
+			- Prompt user for type
+			- Update calculations
+			- Explain nested if statements
