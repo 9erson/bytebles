@@ -65,11 +65,17 @@
 - Script Outline
 	- Step 1
 		- Display welcome message
-		- Display goodbye message
+			- Welcome to our Pizzaria! What would you like to have?
 		- Talk about print function
-		- Assign dummy values for the variables
-		- Calculate the sub-total and total
-		- Display sub-total and total
+		- Create variables and assign values for:
+			- pizza_total
+			- Sub-total
+			- Tip
+			- Tax
+		- Calculate the sub-total that excludes tip and tax
+		- Calculate total that includes tip and tax
+		- Display breakdown
+		- Display goodbye message
 	- Step 2
 		- Add ability for user to enter in tip
 	- Step 3
