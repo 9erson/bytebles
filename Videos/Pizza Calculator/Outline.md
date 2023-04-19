@@ -24,6 +24,12 @@
 	- Arithmetic Operations - Calculate cost based on pizza type and size
 	- Print & f-Strings - Displaying formatted data. Totals should be rounded to 2 decimal places.
 - Demo of completed program
+	- Welcome message
+	- Choose Pizza type
+	- Choose Pizza size
+	- Prompt for tip
+	- Display total
+	- See you again message
 - Final Outline
 	- Define pizza prices
 		- Comments
@@ -58,6 +64,9 @@
 	- Print total
 - Script Outline
 	- Step 1
+		- Display welcome message
+		- Display goodbye message
+		- Talk about print function
 		- Assign dummy values for the variables
 		- Calculate the sub-total and total
 		- Display sub-total and total
