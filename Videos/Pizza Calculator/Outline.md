@@ -16,8 +16,8 @@
 		- Medium
 		- Large
 	- Ask for tip
-	- Display total
-- Practice python basics
+	- display total
+- practice python basics
 	- Input - Prompt the user for choices
 	- Variables - Store the user's choices to be used later
 	- Data casting - Convert strings to integers to be able to calculate
@@ -26,21 +26,10 @@
 - Demo of completed program
 - Steps
 	- Define pizza prices
-		- Suggestions:
-			-  PEPPERONI_SMALL = 10.0 
-			- PEPPERONI_MEDIUM = 12.0 
-			- PEPPERONI_LARGE = 15.0 
-			- HAWAIIAN_SMALL = 11.0 
-			- HAWAIIAN_MEDIUM = 13.0 
-			- HAWAIIAN_LARGE = 16.0 
-			- VEGETARIAN_SMALL = 9.0 
-			- VEGETARIAN_MEDIUM = 11.0 
-			- VEGETARIAN_LARGE = 14.0
-		- Explain concepts:
-			- Comments
-			- Variables and Constants
-			- Assignment operator
-			- Floats & Integers
+		- Comments
+		- Variables and Constants
+		- Assignment operator
+		- Floats & Integers
 	- Prompt user for pizza type
 		- Input
 			- Get input from the user
@@ -49,7 +38,7 @@
 		- Returns a string
 		- Need to change user input to lower case
 	- Prompt user for pizza size
-		- Same concepts as before
+		- It covers the same concepts as before
 	- Calculate sub-total
 		- If, elif, else
 		- Nested if statements
