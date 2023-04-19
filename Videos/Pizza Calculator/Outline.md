@@ -30,60 +30,61 @@
 	- Prompt for tip
 	- Display total
 	- See you again message
-- Final Outline
-	- Define pizza prices
-		- Comments
-		- Variables and Constants
-		- Assignment operator
-		- Floats & Integers
-	- Prompt user for pizza type
-		- Input
-			- Get input from the user
-			- Different results each time
-		- Return value saved to variable
-		- Returns a string
-		- Need to change user input to lower case
-	- Prompt user for pizza size
-		- It covers the same concepts as before
-	- Calculate sub-total
-		- If, elif, else
-		- Nested if statements
-		- Need for sub_total variable
-	- Print out sub-total
-	- Calculate GST
-		- Assume 5%
-		- Arithmetic operators
-		- F-strings
-		- Formatting floats to 2 decimal places
-			- Round method
-			- f-string format method
-	- Prompt for tip
-		- Cast string to float
-		- Calculating tip
-			- Parenthesis overrides default order of operations
-	- Print total
 - Script Outline
-	- Phase 1
-		- Display welcome message
-			- `print("Welcome to the Pizza Order Calculator!")`
-		- Talk about print function
-			- Built in function
-			- Takes in a string
-				- Surrounded by quotes
-			- Displays the string to the screen
-		- Create variables and assign values for:
-			- pizza_total
-			- Sub-total
-			- Tip
-			- Tax
-		- Calculate total that includes tip and tax
-			- total = sub_total + gst + tip
-		- Display breakdown
-		- Display goodbye message
-			- `print("\nThank you for using the Pizza Order Calculator!")`
-		- Run code
+	- Phase 1 
+		- Outline
+			- Welcome message
+			- Assume Pizza total and Tip
+			- Bill breakdown
+			- Goodbye message
+		- Code editor
+			- Display welcome message
+				- `print("Welcome to the Pizza Order Calculator!")`
+			- Talk about print function
+				- Built in function
+				- Takes in a string
+					- Surrounded by quotes
+				- Displays the string to the screen
+			- Set user input:
+				- pizza_total
+					- 13.46
+				- Sub-total
+					- = pizza_total
+				- Tip Percentage
+					- 15
+			- Calculate totals
+				- GST
+					- `sub_total * 0.05`
+				- Tip
+					- `tip = sub_total * (tip_percentage / 100)`
+					- We use parentheses to override the default order or operators
+				- Total
+					- `total = sub_total + gst + tip`
+			- Display breakdown
+				- Print breakdown title
+					- Bill breakdown
+				- Sub-total
+					- We use f strings.
+					- Don't need to convert floats or ints to string.
+				- GST
+					- We can round the totals with the f string.
+					- This means - format this float accurate to 2 decimal places
+				- Tip
+					- We could also use the round function, but this is faster
+				- Total
+			- Display goodbye message
+				- `print("\nThank you for using the Pizza Order Calculator!")`
+			- Run code
 	- Phase 2
 		- Add ability for user to enter in tip
+		- Code editor
+			- After Welcome message
+			- Create tip_percentage variable
+			- Input
+				- Enter tip percentage (example: 15 for 15%):
+			- Cast or Convert to float
+			- In order to calculate the total later
+			- 
 	- Phase 3
 		- Support for 3 Pizza sizes
 		- Set constants
