@@ -72,8 +72,8 @@
 			- Sub-total
 			- Tip
 			- Tax
-		- Calculate the sub-total that excludes tip and tax
 		- Calculate total that includes tip and tax
+			- total = sub_total + gst + tip
 		- Display breakdown
 		- Display goodbye message
 	- Step 2
