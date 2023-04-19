@@ -6,7 +6,7 @@
 	- Pizza place
 	- Simplify
 		- Only one pizza
-		- No drinks or other add-ons
+		- No drinks or other sides
 	- Choose pizza type
 		- Pepperoni
 		- Hawaiian
@@ -20,7 +20,7 @@
 - practice python basics
 	- Input - Prompt the user for choices
 	- Variables - Store the user's choices to be used later
-	- Data casting - Convert strings to integers to be able to calculate
+	- Type casting - Convert strings to integers to be able to calculate
 	- Arithmetic Operations - Calculate cost based on pizza type and size
 	- Print & f-Strings - Displaying formatted data. Totals should be rounded to 2 decimal places.
 - Demo of completed program
