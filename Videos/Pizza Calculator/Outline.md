@@ -23,12 +23,20 @@
 	- Type casting - Convert strings to integers to be able to calculate
 	- Arithmetic Operations - Calculate cost based on pizza type and size
 	- Print & f-Strings - Displaying formatted data. Totals should be rounded to 2 decimal places.
+	- If, Elif, Else Statements
 - Demo of completed program
 	- Welcome message
 	- Choose Pizza type
+		- Pepperoni
 	- Choose Pizza size
+		- Large
 	- Prompt for tip
+		- 15
 	- Display total
+		- Sub total
+		- Tip
+		- GST
+		- Total
 	- See you again message
 - Script Outline
 	- Phase 1 
