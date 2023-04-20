@@ -1,7 +1,18 @@
 - Drive through experience
-	- Items ordered
-	- Price breakdown
-	- Total
+	- Most people have experienced a drive through at a fast food restaurant
+		- at least on TV
+	- Workflow is similar
+		- Pull up to the speak
+		- Order from the menu
+		- Confirm the total on a screen
+		- pull up to the next order
+		- Make payment
+		- receive food
+		- Leave
+	- The screen
+		- Items ordered
+		- Price breakdown
+		- Total
 - Simplified Python version
 	- Pizza place
 	- Simplify
@@ -187,8 +198,11 @@
 		- Run Code
 			- Prompted for 
 				- Size
+					- large
 				- Type
+					- hawaiian
 				- Tip
+					- 25
 				- See breakdown
 				- Goodbye
 - Next Steps
