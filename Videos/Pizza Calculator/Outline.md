@@ -134,7 +134,7 @@
 					- Python distinguishes with case
 						- small is not the same as SMALL
 					- Ensures that a lowercase value is assigned to pizza_size variable
-			- Calculate sub-title based on customer choice
+			- Calculate sub-total based on customer choice
 				- We use if, elif, else statements
 				- if pizza size is small, use the small price
 					- Note the colon at the end of the if statement
