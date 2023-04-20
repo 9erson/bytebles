@@ -54,10 +54,10 @@
 					- Surrounded by quotes
 				- Displays the string to the screen
 			- Set user input:
-				- pizza_total
+				- pizza_price
 					- 13.46
 				- Sub-total
-					- = pizza_total
+					- = pizza_price
 				- Tip Percentage
 					- 15
 			- Calculate totals
