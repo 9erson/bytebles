@@ -170,16 +170,34 @@
 				- Before
 					- If the user wanted a small pizza
 						- Only one possibility
-					- Now
-						- 3 possibilities
-							- Pepperoni
-							- Hawaiian
-							- Vegetarian
-					- Another set of if, elif and else
-						- One for each type
-						- Within the if statement for small pizzas
-						- Covers 
-							- Small Pepperoni
-							- Small Hawaiian
-							- Small Vegetarian
-				-
+				- Now
+								- 3 possibilities
+									- Pepperoni
+									- Hawaiian
+									- Vegetarian
+							- Another set of if, elif and else
+								- One for each type
+								- Within the if statement for small pizzas
+								- Covers 
+									- Small Pepperoni
+									- Small Hawaiian
+									- Small Vegetarian
+		- Run Code
+			- Prompted for 
+				- Size
+				- Type
+				- Tip
+				- See breakdown
+				- Goodbye
+- Next Steps
+	- Very simple program
+	- Can add features
+		- More items like drinks, sides etc.
+		- User shouldn't have to type the names or sizes. Pick 1,2,3
+		- Validation & Error handling
+			- What if user enters incorrect type or size?
+			- Appropriate message
+		- Coupon codes
+		- Discounts
+		- Deals
+		- Combos
