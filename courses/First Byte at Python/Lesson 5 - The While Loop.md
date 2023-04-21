@@ -74,7 +74,7 @@ print("You guessed it!")
 Since the value of `attempt` never changes, unless the user successfully enters the secret on the first attempt, the code block will keep getting executed.
 
 ## Chew the byte
-1. Ask the user to enter a new password. Ensure the password is at least 10 characters long. Hint - user the `len` function.
+1. Ask the user to create a new password. Ensure the password is at least 10 characters long. Hint - user the `len` function.
 	1. If the user enters a password that is less than 10 characters long, print the message `"The password should be at least 10 characters long. Try again."` Keep prompting the user until the user enters a password that is at least 10 characters long.
 	2. After the user enters a password that is at least 10 characters long, print the message "You have created a valid password."
 2. 
