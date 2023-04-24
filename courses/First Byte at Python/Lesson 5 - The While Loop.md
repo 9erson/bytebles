@@ -137,3 +137,22 @@ while True:
 
 
 # Byte to Go
+
+## Number Guessing Game
+
+Create a number guessing game where the user has to guess a secret number within a certain range. The program should provide feedback to the user after each guess, letting them know if their guess was too high or too low. The game should continue until the user guesses the correct number or decides to quit. 
+Here is an example of what running the game should look like:
+```
+Guess the secret number (between 1 and 20): 3
+Too low! Try again.
+Guess the secret number (between 1 and 20): 16
+Too high! Try again.
+Guess the secret number (between 1 and 20): 10
+Congratulations! You guessed the secret number!
+```
+
+If you're up for a challenge, here are three ideas to make the game more fun and interesting:
+
+- Allow the user to choose the range of numbers they want to guess from
+-   Limit the number of guesses the user can make before they lose the game
+-   Keep track of the user's score based on the number of guesses it takes them to guess the correct number
