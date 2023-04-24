@@ -1,72 +1,20 @@
-Welcome to this lesson on Python programming! In previous lessons, we've covered the fundamentals of **bools** and **boolean expressions**, as well as **decisions** (if, elif, else) in Python. Now, it's time to move on to a new concept - **loops**!
+Welcome to this lesson on Python programming! In previous lessons, we've covered the fundamentals of **bools** and **boolean expressions**, as well as **decisions** (`if`, `elif`, `else`) in Python. Now, it's time to move on to a new concept - **loops**!
 
-In this lesson, we will specifically be focusing on the `while` loop. A loop allows us to execute a block of code multiple times, which can save us a lot of time and effort when writing programs. We will also learn about generating **random numbers** in Python, which can add an element of unpredictability to our programs and make them more dynamic.
+In this lesson, we will specifically be focusing on the `while` loop. A loop allows us to execute a block of code **multiple** times, which can save us a lot of time and effort when writing programs. We will also learn about generating **random numbers** in Python, which can add an element of **unpredictability** to our programs and make them more dynamic.
 
-By the end of this lesson, you will have the knowledge and tools to create a fun and interactive Number Guessing game that incorporates loops and random numbers. This will test your understanding of the concepts we've covered so far, and help you reinforce your learning.
+By the end of this lesson, you will have the knowledge and tools to create a fun and interactive **Number Guessing game** that incorporates **loops** and **random** numbers. This will test your understanding of the concepts we've covered so far, and help you reinforce your learning.
 
 So, get ready to dive into the world of loops and random numbers in Python! Don't forget to complete the homework assignment, which will give you the chance to apply everything you've learned in this lesson. Good luck!
 
 # Concepts
 
 ## While Loop
-If you recall in previous lessons, we use the `if` statement to run a block of code if a condition is `True`. This condition must be a **boolean expression**. A boolean expression is a Python expression that evaluates to a bool. That is, `True` or `False`.
 
-Consider the following code:
+In previous lessons, we learned about the `if` statement, which allows us to run a block of code if a condition is `True`. This condition must be a **boolean expression** - an expression that evaluates to either `True` or `False`.
 
-```python
-name = input("Name? ")
-age = input("Age? ")
+Now, let's talk about the `while` loop. Like the `if` statement, it relies on a boolean expression to control the flow of the program. However, instead of executing the code block only once, the `while` loop executes the code repeatedly **until** the boolean expression evaluates to `False`.
 
-print(f"{name} is {age} years old!")
-
-if age >= 18:
-	print(f"{name} is an adult.")
-	print(f"{name} is eligible to vote.")
-else:
-	print(f"{name} is not an adult.")
-	print(f"{name} is not eligible to vote.")
-```
-
-In the first example of running the code, let's enter the values `Sarah` and `20`. Here is how the code would run:
-```
-Name? Sarah
-Age? 20
-Sarah is an adult.
-Sarah is eligible to vote.
-```
-
-In this next example of running the code, let's enter the values `Sarah` and `12`. Here is how the code would look now:
-```
-Name? Sarah
-Age? 20
-Sarah is not an adult.
-Sarah is not eligible to vote.
-```
-
-Everything that is indented after the `if` statement is called a code block and executes if the `if` condition is met; i.e. the `if` statement condition evaluates to `True`. Everything after the `else` statement executes if the `if` condition is not met; i.e. The `if` statement condition evaluates to `False`.
-
-The structure of a `while` loop is similar:
-```python
-SECRET = 'Fr0gger'
-
-attempt = input("Can you guess the secret word? ")
-
-while attempt != SECRET:
-	print("Sorry! It's not that...")
-	attempt = input("Can you guess the secret word? ")
-
-print("You guessed it!")
-```
-
-Here are the similarities with the `if` statement:
-1. They both rely on criteria that is expressed as a boolean expression.
-2. They both end with a `:` (colon).
-3. They both are followed by one or more indented lines.
-
-The difference with the `if` statement, however, is that the code block belonging to the `while` statement continues to run until the condition is `True`
-
-A very common mistake beginners make is that the variable(s) within the criteria is never updated, and so the loop never ends. This is called an infinite loop. Although there are cases where an infinitive loop is required, in most cases, it's not.
-Here is an example of the previous code, where the programmer forgot to update a variable included in the while criteria.
+Here is an example of a `while` loop:
 
 ```python
 SECRET = 'Fr0gger'
@@ -74,12 +22,33 @@ SECRET = 'Fr0gger'
 attempt = input("Can you guess the secret word? ")
 
 while attempt != SECRET:
-	print("Sorry! It's not that...")
+    print("Sorry! It's not that...")
+    attempt = input("Can you guess the secret word? ")
 
 print("You guessed it!")
 ```
 
-Since the value of `attempt` never changes, unless the user successfully enters the secret on the first attempt, the code block will keep getting executed.
+In this example, the loop will keep executing the code block as long as the `attempt` variable is not equal to the `SECRET` variable. Once the user enters the correct value of `SECRET`, the boolean expression evaluates to `False`, and the loop ends.
+
+Just like the `if` statement, the `while` loop ends with a colon (`:`) and is followed by one or more indented lines. The code block is executed repeatedly until the boolean expression evaluates to `False`.
+
+One common mistake beginners make when using a `while` loop is **forgetting** to update the variable(s) in the boolean expression. If the variable(s) never change, the boolean expression will **always** evaluate to the same value, and the loop will become an **infinite loop**. 
+
+> [!Infinite Loop]
+> An infinite loop is a loop that never ends, and it can cause your program to crash or freeze.
+
+Here is an example of an infinite loop:
+
+```python
+SECRET = 'Fr0gger'
+
+attempt = input("Can you guess the secret word? ")
+
+while attempt != SECRET:
+    print("Sorry! It's not that...")
+```
+
+In this example, the `attempt` variable is **never** updated, so the boolean expression will always evaluate to `True`, and the loop will keep executing forever. To avoid this, make sure to update the variable(s) in the boolean expression within the loop.
 
 ## Chew the byte
 1. Ask the user to create a new password. Ensure the password is at least 10 characters long. Hint - use the `len` function.
