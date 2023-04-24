@@ -1,5 +1,7 @@
+In previous lessons we learned **bools**, **boolean expressions** and **decisions** (if, elif, else). We are now ready to learn loops. In this lesson we will learn the `while` loop. We will also learn how to generate random numbers. Generating random numbers can make our programs more dynamic by adding an element of chance. For today's homework, we have a Number Guessing game that makes use of loops, random numbers, as well as other concepts we've learnt in previous lessons.
 
 # Concepts
+
 ## While Loop
 If you recall in previous lessons, we use the `if` statement to run a block of code if a condition is `True`. This condition must be a **boolean expression**. A boolean expression is a Python expression that evaluates to a bool. That is, `True` or `False`.
 
@@ -148,6 +150,18 @@ print(random_number)
 ```
 
 This tool can be useful in various real-world applications, such as games, simulations, testing, research, and encryption. For example, it can be used in **games** to simulate rolling a dice or selecting a random item from a list. In **scientific research**, it can be used to assign participants to different treatment groups or to generate random samples from a population. In **encryption**, it can be used to generate random numbers for encryption keys and to introduce randomness into encryption algorithms.
+
+### Chew the Byte
+1. Generate a random integer between 1 and 100 and print it to the console.
+2. Generate a random integer between 1 and 6 (inclusive) to simulate a dice roll. Every time you run the code, you could see any **one** of the following:
+	1. You rolled a 1.
+	2. You rolled a 2.
+	3. You rolled a 3.
+	4. You rolled a 4.
+	5. You rolled a 5.
+	6. You rolled a 6.
+3. Generate a random integer between 0 and 1 to simulate a coin toss. Every time you run the code, you should either get `Heads` or `Tails`.
+
 
 # Byte to Go
 
