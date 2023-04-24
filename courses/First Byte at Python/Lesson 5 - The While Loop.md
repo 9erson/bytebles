@@ -77,6 +77,7 @@ Since the value of `attempt` never changes, unless the user successfully enters 
 1. Ask the user to create a new password. Ensure the password is at least 10 characters long. Hint - use the `len` function.
 	1. If the user enters a password that is less than 10 characters long, print the message `"The password should be at least 10 characters long. Try again."` Keep prompting the user until the user enters a password that is at least 10 characters long.
 	2. After the user enters a password that is at least 10 characters long, print the message, "You have created a valid password."
+
 ## Looping n Times
 In the case of the `while` loop examples so far, the number of times the loop takes place is not known beforehand. It would depend on the user. It could loop 0 times, or 1000 times, or even more! There are times when we may know, beforehand, how many times to run a piece of code.
 Let's say you want to print out the numbers from 1 to 10, one on each line. Here is how you would do it.
@@ -115,3 +116,19 @@ if attempts == 3:
     print("Out of attempts. Access denied.")
 ```
 
+### Chew the Byte
+1. Write a program that asks the user to enter a series of positive numbers until they enter a negative number. You can use a `while` loop to keep asking for input until the user enters a negative number, and use the `break` statement to exit the loop. The first 2 lines have been done for you.
+```python
+while True:
+    num = int(input("Enter a positive number (or a negative number to exit): "))
+
+	# Your code here
+```
+2. Write a program that asks the user to enter a series of words, and stops asking when the user enters the word "quit". You can use a `while` loop to keep asking for input until the user enters the word "quit", and use the `break` statement to exit the loop. The first 2 lines have been done for you:
+
+```python
+while True:
+    word = input("Enter a word (or 'quit' to exit): ")
+
+	# Your code here
+```
