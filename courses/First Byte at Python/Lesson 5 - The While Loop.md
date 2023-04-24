@@ -132,3 +132,8 @@ while True:
 
 	# Your code here
 ```
+
+## Generating Random Numbers
+
+
+# Byte to Go
