@@ -55,21 +55,28 @@ In this example, the `attempt` variable is **never** updated, so the boolean e
 	1. If the user enters a password that is less than 10 characters long, print the message `"The password should be at least 10 characters long. Try again."` Keep prompting the user until the user enters a password that is at least 10 characters long.
 	2. After the user enters a password that is at least 10 characters long, print the message, "You have created a valid password."
 
-## Looping n Times
-In the case of the `while` loop examples so far, the number of times the loop takes place is not known beforehand. It would depend on the user. It could loop 0 times, or 1000 times, or even more! There are times when we may know, beforehand, how many times to run a piece of code.
-Let's say you want to print out the numbers from 1 to 10, one on each line. Here is how you would do it.
+## Looping a Fixed Number of Times
+
+In the previous examples, we used the `while` loop to repeat a block of code until a certain condition is met. However, there are times when we know beforehand how many times we need to repeat the code. In this case, we can use a `while` loop to achieve the same result.
+
+### Example - Printing Numbers from 1 to 10
+
+Let's say we want to print out the numbers from 1 to 10, one on each line. We can use a `while` loop to achieve this.
 
 ```python
 count = 1
 
 while count <= 10:
-	print(count)
-	count += 1
+    print(count)
+    count += 1
 ```
 
+In the above code, we initialize a variable `count` to 1. Then we use a `while` loop to repeat the code block until `count` is greater than 10. Within the loop, we print the value of `count` and increment it by 1 at the end of each iteration.
+
 ### Chew the byte
-1. Write a python program to print "Hello" (or some other string) 10 times.
-2. Write a python program to print all the even numbers from 1 to 100.
+
+1.  Write a Python program to print "Hello" 10 times using a `while` loop.
+2.  Write a Python program to print all the even numbers from 1 to 100 using a `while` loop.
 
 ## Break
 
