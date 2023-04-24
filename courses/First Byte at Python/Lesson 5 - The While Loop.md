@@ -55,7 +55,7 @@ Here are the similarities with the `if` statement:
 2. They both end with a `:` (colon).
 3. They both are followed by one or more indented lines.
 
-The difference with the `if` statement, however, is that the code block belonging to the `while` statement keeps running until the condition is `True`
+The difference with the `if` statement, however, is that the code block belonging to the `while` statement continues to run until the condition is `True`
 
 A very common mistake beginners make is that the variable(s) within the criteria is never updated, and so the loop never ends. This is called an infinite loop. Although there are cases where an infinitive loop is required, in most cases, it's not.
 Here is an example of the previous code, where the programmer forgot to update a variable included in the while criteria.
@@ -79,4 +79,25 @@ Since the value of `attempt` never changes, unless the user successfully enters 
 	2. After the user enters a password that is at least 10 characters long, print the message, "You have created a valid password."
 ## Looping n Times
 In the case of the `while` loop examples so far, the number of times the loop takes place is not known beforehand. It would depend on the user. It could loop 0 times, or 1000 times, or even more! There are times when we may know, beforehand, how many times to run a piece of code.
-Let
+Let's say you want to print out the numbers from 1 to 10, one on each line. Here is how you would do it.
+
+```python
+count = 1
+
+while count <= 10:
+	print(count)
+	count += 1
+```
+
+### Chew the byte
+1. Write a python program to print "Hello" (or some other string) 10 times.
+2. Write a python program to print all the even numbers from 1 to 100.
+
+## Break
+There may be times when you may have to pre-maturely exit the loop. Let's say you want to print the numbers from 1 to 10, but at the
+
+
+```
+
+# Byte to Go
+Write a python program that prints
