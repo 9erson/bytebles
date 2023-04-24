@@ -94,10 +94,24 @@ while count <= 10:
 2. Write a python program to print all the even numbers from 1 to 100.
 
 ## Break
-There may be times when you may have to pre-maturely exit the loop. Let's say you want to print the numbers from 1 to 10, but at the
 
+There may be times when you may have to pre-maturely exit the loop. 
+Suppose you want to write a program that asks the user to enter a password, but gives them only three chances to get it right. You can use a `while` loop to keep asking for input until the user enters the correct password or exhausts all three attempts, and use the `break` statement to exit the loop if the user enters the correct password:
 
+```python
+password = "secret"
+attempts = 0
+
+while attempts < 3:
+    guess = input("Enter the password: ")
+    if guess == password:
+        print("You guessed the password! Access granted.")
+        break
+    else:
+        print("Wrong password. Try again.")
+        attempts += 1
+
+if attempts == 3:
+    print("Out of attempts. Access denied.")
 ```
 
-# Byte to Go
-Write a python program that prints
