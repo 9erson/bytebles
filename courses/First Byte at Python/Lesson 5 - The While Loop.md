@@ -135,7 +135,7 @@ while True:
 
 ## Generating Random Numbers
 
-Random numbers are numbers that are selected in a way that is unpredictable and unbiased. In Python, you can generate random numbers using the built-in `random` module.
+Random numbers are numbers that are selected in a way that is **unpredictable** and unbiased. In **Python**, you can generate random numbers using the built-in `random` module.
 
 You can generate random numbers by using the `random.randint()` function. This function returns a random integer between two specified values, inclusive of both endpoints. Here's an example:
 
@@ -146,7 +146,8 @@ import random
 random_number = random.randint(1, 10)
 print(random_number)
 ```
- 
+
+This tool can be useful in various real-world applications, such as games, simulations, testing, research, and encryption. For example, it can be used in **games** to simulate rolling a dice or selecting a random item from a list. In **scientific research**, it can be used to assign participants to different treatment groups or to generate random samples from a population. In **encryption**, it can be used to generate random numbers for encryption keys and to introduce randomness into encryption algorithms.
 
 # Byte to Go
 
