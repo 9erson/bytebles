@@ -1,4 +1,10 @@
-In previous lessons we learned **bools**, **boolean expressions** and **decisions** (if, elif, else). We are now ready to learn loops. In this lesson we will learn the `while` loop. We will also learn how to generate random numbers. Generating random numbers can make our programs more dynamic by adding an element of chance. For today's homework, we have a Number Guessing game that makes use of loops, random numbers, as well as other concepts we've learnt in previous lessons.
+Welcome to this lesson on Python programming! In previous lessons, we've covered the fundamentals of **bools** and **boolean expressions**, as well as **decisions** (if, elif, else) in Python. Now, it's time to move on to a new concept - **loops**!
+
+In this lesson, we will specifically be focusing on the `while` loop. A loop allows us to execute a block of code multiple times, which can save us a lot of time and effort when writing programs. We will also learn about generating **random numbers** in Python, which can add an element of unpredictability to our programs and make them more dynamic.
+
+By the end of this lesson, you will have the knowledge and tools to create a fun and interactive Number Guessing game that incorporates loops and random numbers. This will test your understanding of the concepts we've covered so far, and help you reinforce your learning.
+
+So, get ready to dive into the world of loops and random numbers in Python! Don't forget to complete the homework assignment, which will give you the chance to apply everything you've learned in this lesson. Good luck!
 
 # Concepts
 
