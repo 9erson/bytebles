@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a96327da3a60688",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Videos/Understand Leap Year Math.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+                "file": "Videos/Understand Leap Year Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+                "file": "Videos/Understand Leap Year Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md"
+                "file": "Videos/Understand Leap Year Math.md"
               }
             }
           },
@@ -193,12 +205,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "47fbd586f39974df",
+  "active": "0a96327da3a60688",
   "lastOpenFiles": [
+    "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+    "Videos/Understand Leap Year Math.md",
     "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
-    "courses/First Byte at Python/Lesson 5 - The While Loop.md",
     "Videos/Pizza Calculator/Outline.md",
     "Videos/Pizza Calculator",
     "Videos",
