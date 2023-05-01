@@ -1,12 +1,12 @@
 ## Introduction
-This Python lesson will introduce you to the `List` data type, which allows you to store multiple values within a single variable. You will learn two ways to create lists: defining all elements at initiation and appending values after the variable is created. You will also learn how to access individual items from a list by index. Additionally, you will be introduced to the `for` loop, which is used to iterate over a list and perform a specific action on each item in the list. The lesson includes several examples and exercises to help you practice using lists and for loops. Finally, you will complete a project that allows you to apply what you have learned by creating a Python program that allows the user to enter items for a shopping list.
+This Python lesson will introduce you to the `List` data type, which allows you to store **multiple** values within a single variable. You will learn two ways to create lists: defining all elements at **initiation** and **appending** values after the variable is created. You will also learn how to access individual items from a list by **index**. Additionally, you will be introduced to the `for` loop, which is used to **iterate** over a list and perform a specific action on each item in the list. The lesson includes several examples and exercises to help you practice using lists and for loops. Finally, you will complete a project that allows you to apply what you have learned by creating a Python program that allows the user to enter items for a shopping list.
 
 ## The List Data Type
 
 In Python, we have seen variables holding **different** types of data - strings, integers, floats, and booleans. The one thing all these have in common is that the variable only holds **one** piece of data at a time. You could **change** the variable to hold a different value and even a **different** value type, but it will still only be **one** at any given time.
 
 The `List` data type is a **new data type** that allows you to store **multiple** values within a single variable. Lists can be created in three ways: by defining all elements at initiation, by appending values **after** the variable is created, or a combination of the two.
-We use **square brackets** `[` and `]` to tell Python that we want to create a list. If we choose to definte the elements at initiation, we all the elements within the square brackets and separate them by a comma.
+We use **square brackets** `[` and `]` to tell Python that we want to create a list. If we choose to define the elements at initiation, we all the elements within the square brackets and separate them by a comma.
 
 ### Defining All Elements at Initiation
 
