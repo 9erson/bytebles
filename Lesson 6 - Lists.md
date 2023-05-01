@@ -8,4 +8,6 @@
 	  # Set person's name, age, height and if the person is married.
 	  person1 = ["John", 25, 5.9, False]
 	  person2 = ["Jane", 21, 5.0, True]
+	  print(person1) # Output -> ['John', 25, 5.9, False]
 ```
+- Although you can store different data types within
