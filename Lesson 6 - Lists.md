@@ -15,4 +15,24 @@
 	  person2 = ["Jane", 21, 5.0, True]
 	  print(person1) # Output -> ['John', 25, 5.9, False]
 ```
-- We use the indexing 
+- We can access individual items from a list by index (note that counting starts from 0):
+  ```python
+  names = ["John", "Jane"]
+  first_name = names[0]
+  second_name = names[1]
+  print(first_name) # John
+  print(second_name) # Jane
+```
+## The For Loop
+- If the list has many values, and we want to perform some action on each item in the list, we use the for loop.
+  ```python
+  names = ["John", "Jane", "Tom", "Sarah", "Rick"]
+  for name in names:
+	  print(name)
+```
+- Here is another example:
+  ```python
+  nums = [12,14,21,32]
+  for num in nums:
+	  print(num * 2)
+```
