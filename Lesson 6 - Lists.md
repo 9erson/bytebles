@@ -37,5 +37,24 @@
 	  print(num * 2)
 ```
 ## Project
-Imagine you're at a virtual grocery store with friends and you need to create a shared shopping list. How might you create a program that allows everyone to add items to the list? Can you write a Python program that prompts each person to add an item and then displays the updated list for everyone to see?
+Imagine you're at a virtual grocery store with friends, and you need to create a shared shopping list. How might you create a program that allows everyone to add items to the list? Can you write a Python program that prompts each person to add an item and then displays the updated list for everyone to see?
 Here is the starting code:
+```python
+# Shopping List Creator
+
+# Create an empty list to hold the shopping items
+shopping_list = []
+
+# Loop to prompt the user to enter items
+while True:
+    # Prompt the user to enter an item
+    item = input("Enter an item to add to the shopping list (or press enter to quit): ")
+
+    # If the user enters enter, break out of the loop
+
+    # Add the item to the shopping list
+
+    # Display the updated shopping list
+
+print("Thank you for using the Shopping List Creator!")
+```
