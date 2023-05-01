@@ -36,3 +36,6 @@
   for num in nums:
 	  print(num * 2)
 ```
+## Project
+Create a Shopping list creator. Prompt the user to enter an item. Then display the list. Then prompt the user for the next item. Every time the user enters an item, it adds it to the list, and displays "Shopping List", followed by the entire list, one on each list. 
+Here is the starting code:
