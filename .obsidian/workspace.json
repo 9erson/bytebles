@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
+                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5b0a9733ba0c700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lesson 6 - Lists.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88349a4ceb499007",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
+                "file": "Lesson 6 - Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
+                "file": "Lesson 6 - Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md"
+                "file": "Lesson 6 - Lists.md"
               }
             }
           },
@@ -182,11 +193,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a96327da3a60688",
+  "active": "d5b0a9733ba0c700",
   "lastOpenFiles": [
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
-    "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
+    "Lesson 6 - Lists.md",
     "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+    "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
     "Videos/Understand Leap Year Math.md",
     "courses/First Byte at Python/Lesson 2 - Data Types.md",
     "Videos/Pizza Calculator/Outline.md",
