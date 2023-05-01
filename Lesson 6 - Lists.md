@@ -37,5 +37,5 @@
 	  print(num * 2)
 ```
 ## Project
-Create a Shopping list creator. Prompt the user to enter an item. Then display the list. Then prompt the user for the next item. Every time the user enters an item, it adds it to the list, and displays "Shopping List", followed by the entire list, one on each list. 
+Imagine you're at a virtual grocery store with friends and you need to create a shared shopping list. How might you create a program that allows everyone to add items to the list? Can you write a Python program that prompts each person to add an item and then displays the updated list for everyone to see?
 Here is the starting code:
