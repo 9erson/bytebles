@@ -28,9 +28,15 @@ print(first_name) # John
 print(second_name) # Jane
 ```
 
+### Chew the Byte
+1. 
+
 ## The For Loop
 
-If the list has many values, and we want to perform some action on each item in the list, we use the **for loop**. The for loop is used to **iterate** over a list.
+If the list has many values, and we want to perform some action on each item in the list, we use the **for loop**. 
+
+> [!For Loop]
+> The for loop is used to **iterate** over a list.
 
 Here is an example of how to use the for loop in Python:
 
@@ -44,11 +50,7 @@ This loop will iterate over the `names` list and print out each name. You can 
 
 Here is another example:
 
-python
-
-Copy
-
-```
+```python
 nums = [12, 14, 21, 32]
 for num in nums:
     print(num * 2)
@@ -56,7 +58,6 @@ for num in nums:
 
 This loop will iterate over the `nums` list and print out each number multiplied by two.
 
-That's it for today's class! We hope you found this handout helpful in understanding the List data type and the For Loop in Python.
 ## Project
 Write a Python program that allows the user to enter items for their family's weekly grocery shopping trip. 
 1. The program should prompt the user to enter an item, and each time an item is entered, the program should add it to a list and print the entire list. 
