@@ -104,7 +104,7 @@ for name in names:
 
 ```
 
-## Project
+## Byte to Go
 
 Write a Python program that allows the user to enter items for their family's weekly grocery shopping trip. 
 1. The program should prompt the user to enter an item, and each time an item is entered, the program should add it to a list and print the entire list. 
