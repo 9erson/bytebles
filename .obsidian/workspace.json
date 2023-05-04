@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 6 - Lists.md",
+                "file": "courses/June 2023/Plan.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a6b246def9389c4d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88349a4ceb499007",
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 6 - Lists.md",
+                "file": "courses/June 2023/Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 6 - Lists.md",
+                "file": "courses/June 2023/Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 6 - Lists.md"
+                "file": "courses/June 2023/Plan.md"
               }
             }
           },
@@ -188,14 +176,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6b246def9389c4d",
+  "active": "e353972921f68a79",
   "lastOpenFiles": [
-    "courses/First Byte at Python/Lesson 3 - Decisions.md",
     "courses/First Byte at Python/Lesson 5 - The While Loop.md",
-    "courses/First Byte at Python/Lesson 6 - Lists.md",
+    "courses/June 2023/Plan.md",
+    "courses/June 2023",
     "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
-    "Videos/Understand Leap Year Math.md",
+    "courses/First Byte at Python/Lesson 3 - Decisions.md",
     "courses/First Byte at Python/Lesson 2 - Data Types.md",
+    "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
+    "courses/First Byte at Python/Lesson 6 - Lists.md",
+    "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
+    "Videos/Understand Leap Year Math.md",
     "Videos/Pizza Calculator/Outline.md",
     "Videos/Pizza Calculator",
     "Videos",
@@ -206,8 +198,6 @@
     "Untitled.canvas",
     "Excalidraw",
     "courses/First Byte at Python/Lesson 1 - The IPO Model - Slides.md",
-    "courses/First Byte at Python/Lesson 1 - The IPO Model - Handout.md",
-    "courses/First Byte at Python/Lesson 1 - The IPO Model.md",
     "Untitled.ipynb",
     "courses/First Byte at Python/Course Curriculum.md",
     "courses/First Byte at Python/Lesson 4 - Loops.md",
