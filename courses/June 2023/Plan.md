@@ -17,6 +17,12 @@
 4. The While Loop
 	1. While
 	2. Break
+	3. Random
+	4. Project ideas
+		1. Password generator
+		2. Head, tails
+		3. Rolling a die
+		4. Rock, paper, sissors
 5. For Loop
 	1. Lists
 	2. For Loop
