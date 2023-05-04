@@ -22,7 +22,7 @@
 		1. Password generator
 		2. Head, tails
 		3. Rolling a die
-		4. Rock, paper, sissors
+		4. Rock, paper, scissors
 5. For Loop
 	1. Lists
 	2. For Loop
