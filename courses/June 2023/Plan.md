@@ -12,6 +12,8 @@
 3. Conditions
 	1. Boolean
 	2. If, Elif, Else
+	3. Project ideas
+		1. Given a month, return number of days in month
 4. The While Loop
 	1. While
 	2. Break
@@ -19,10 +21,10 @@
 	1. Lists
 	2. For Loop
 
-1. Variables
-2. Data Types
-3. Control Flow
-4. Lists, Random
-5. Loops
-6. Functions
-7. Dictionaries
+6. Variables
+7. Data Types
+8. Control Flow
+9. Lists, Random
+10. Loops
+11. Functions
+12. Dictionaries
