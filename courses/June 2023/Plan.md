@@ -5,4 +5,6 @@
 3. Conditions
 4. The While Loop
 5. For Loop
-6. 
+6. Dictionaries
+7. Web App
+8. Publishing Your App
