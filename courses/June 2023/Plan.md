@@ -33,14 +33,17 @@
 7. Modules
 	1. import
 	2. math
-	3. pip
-	4. 
+	3. time
+	4. pip
+	5. art module
 8. Final Project
+	1. set
+	2. Hangman
 
-9. Variables
-10. Data Types
-11. Control Flow
-12. Lists, Random
-13. Loops
-14. Functions
-15. Dictionaries
+10. Variables
+11. Data Types
+12. Control Flow
+13. Lists, Random
+14. Loops
+15. Functions
+16. Dictionaries
