@@ -26,11 +26,13 @@
 5. For Loop
 	1. Lists
 	2. For Loop
+6. Functions
+7. 
 
-6. Variables
-7. Data Types
-8. Control Flow
-9. Lists, Random
-10. Loops
-11. Functions
-12. Dictionaries
+8. Variables
+9. Data Types
+10. Control Flow
+11. Lists, Random
+12. Loops
+13. Functions
+14. Dictionaries

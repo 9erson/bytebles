@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+                "file": "courses/June 2023/Plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+                "file": "courses/June 2023/Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md",
+                "file": "courses/June 2023/Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 5 - The While Loop.md"
+                "file": "courses/June 2023/Plan.md"
               }
             }
           },
@@ -179,9 +179,9 @@
   },
   "active": "e353972921f68a79",
   "lastOpenFiles": [
+    "courses/First Byte at Python/Lesson 5 - The While Loop.md",
     "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
     "courses/First Byte at Python/Lesson 3 - Decisions.md",
-    "courses/First Byte at Python/Lesson 5 - The While Loop.md",
     "courses/June 2023/Plan.md",
     "courses/June 2023",
     "courses/First Byte at Python/Lesson 2 - Data Types.md",
