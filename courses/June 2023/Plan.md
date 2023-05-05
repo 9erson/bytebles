@@ -27,12 +27,20 @@
 	1. Lists
 	2. For Loop
 6. Functions
-7. 
+	1. def keyword
+	2. arguments or parameters
+	3. return keyword
+7. Modules
+	1. import
+	2. math
+	3. pip
+	4. 
+8. Final Project
 
-8. Variables
-9. Data Types
-10. Control Flow
-11. Lists, Random
-12. Loops
-13. Functions
-14. Dictionaries
+9. Variables
+10. Data Types
+11. Control Flow
+12. Lists, Random
+13. Loops
+14. Functions
+15. Dictionaries
