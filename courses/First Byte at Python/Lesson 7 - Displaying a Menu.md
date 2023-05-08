@@ -45,3 +45,20 @@ else:
 2. Create a list of names of people. Display the names as a numbered list and ask to user to pick a name. Then print out the number of characters the name has.
 
 ## Add item to list
+
+```python
+items = ["Red", "Green", "Blue"]
+
+for index, item in enumerate(items):
+    print(f"{index + 1}. {item}")
+
+new_item = input("Enter a new colour: ")
+items.append(new_item)
+
+for index, item in enumerate(items):
+    print(f"{index + 1}. {item}")
+```
+
+### Exercises
+1. Create a list of 3 countries, then prompt the user to add another country. Then display the entire numbered list.
+2. 
