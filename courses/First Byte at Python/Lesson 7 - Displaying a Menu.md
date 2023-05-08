@@ -34,10 +34,7 @@ for index, item in enumerate(items):
 
 choice = int(input("Choice: "))
 
-if choice <= len(items):
-    print(f"You picked: {items[choice - 1]}")
-else:
-    print(f"Invalid choice: {choice}")
+print(f"You picked: {items[choice - 1]}")
 ```
 
 ### Exercises
@@ -74,13 +71,21 @@ for index, item in enumerate(items):
 
 choice = int(input("Choice: "))
 
-if choice <= len(items):
-    items.pop(choice - 1)
+items.pop(choice - 1)
 
-	# Print updated list
-	for index, item in enumerate(items):
-	    print(f"{index + 1}. {item}")
-else:
-    print(f"Invalid choice: {choice}")
+# Print updated list
+for index, item in enumerate(items):
+	print(f"{index + 1}. {item}")
 
 ```
+
+### Exercises
+1. Create a list of the planets in our solar system. Then prompt the user to remove one planet. Then display the new list.
+2. Create a list of animals. Then prompt the user to remove one animal. Then display the new list.
+
+## Project
+Your parents have asked you to create a shopping list manager to manage the weekly grocery shopping list. Print a welcome message, then prompt the user to pick between 3 options:
+1. Add an item to the shopping list
+2. Remove an item from the shopping list
+3. Quit
+Write the appropriate code for each category. The program should keep asking the user the choices, and add or remove from the list. When the user finally selects 3 (quit), Display the final list, and exit the program.
