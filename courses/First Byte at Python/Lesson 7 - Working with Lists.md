@@ -96,6 +96,15 @@ items.append(new_item)
 for index, item in enumerate(items):
     print(f"{index + 1}. {item}")
 ```
+
+The `append()` function is a built-in method in Python that **adds** a new element to the **end** of a list. In the above code, the `append()` function is used to add a new item (a colour entered by the user) to the end of the `items` list. 
+
+The code first creates a list of colors containing three elements: "Red", "Green", and "Blue". Then, it iterates through the list using the `enumerate()` function to print each item with its index. 
+
+Next, the code prompts the user to enter a new color using the `input()` function, and stores the input in the variable `new_item`. The `append()` function is then used to add the new color to the end of the `items` list.
+
+Finally, the code iterates through the updated `items` list again, using the `enumerate()` function to print each item with its index, including the newly added color.
+
 ### Chew the Byte
 1. Create a list of 3 countries, then prompt the user to add another country to the list. Then display the entire numbered list.
 2. Create a list of 3 breeds of dogs, then prompt the user to add another dog breed to the list. Then display the entire numbered list.
@@ -117,6 +126,13 @@ items.pop(choice - 1)
 for index, item in enumerate(items):
     print(f"{index + 1}. {item}")
 ```
+
+In the given code, the `pop()` function is used to **remove** an item from the `items` list based on the user's input. The `pop()` function is a built-in Python function that removes and returns the item at the specified index from a list.
+
+Here, `items.pop(choice - 1)` removes the item at the index specified by the user's choice minus one, since list indices start at zero. The removed item is not returned or stored in any variable.
+
+After the removal of the chosen item, the updated `items` list is iterated through using a `for` loop and each item along with its index is printed to the console. This is achieved using the `enumerate()` function, which allows iterating through a sequence while keeping track of both the index and the item itself. The index is incremented by one in the print statement to display a numbered list starting from 1 instead of 0.
+
 ### Chew the Byte
 1. Create a list of the planets in our solar system. Prompt the user to remove one planet from the list. Then display the updated list.
 2. Create a list of animals. Prompt the user to remove one animal from the list. Then display the updated list.
