@@ -52,7 +52,7 @@ choice = int(input("Choice: "))
 print(f"You picked: {items[choice - 1]}")
 ```
 ### Chew the Byte
-1. Create a list of items on a restaurant menu. Display the menu as a numbered list and ask the user to pick an item. Then display the message - "You picked Fries!"
+1. Create a list of items on a restaurant menu. Display the menu as a numbered list and ask the user to pick an item. Then display the message. E.g. "You picked Fries!"
 2. Create a list of names of people. Display the names as a numbered list and ask the user to pick a name. Then print out the number of characters in the chosen name.
 
 ## Add item to list
