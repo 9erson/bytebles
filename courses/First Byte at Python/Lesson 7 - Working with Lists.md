@@ -65,6 +65,17 @@ for index, item in enumerate(items):
 choice = int(input("Choice: "))
 print(f"You picked: {items[choice - 1]}")
 ```
+
+The above code is simulating a **select widget**, commonly found in graphical user interfaces, in a console application. The select widget is a user interface element that allows users to **choose** from a set of predefined options.
+
+The code defines a list of items, in this case, "Red", "Green", and "Blue". It then displays this list to the user as a numbered list, using the `enumerate()` function to generate the numbers. Each item is displayed with its corresponding number.
+
+After displaying the list, the code prompts the user to pick an item by asking for their choice using the `input()` function. The user's input is then converted to an integer using the `int()` function and stored in the `choice` variable.
+
+Finally, the code displays the chosen item to the user by indexing into the list of items using the user's choice. The chosen item is displayed using an f-string.
+
+This code follows a common pattern when replicating a select widget in a console app. It first displays the available options to the user, then prompts them to choose one using input, and finally displays the chosen option back to the user. This pattern can be used to create a variety of select widgets in a console app, from simple lists like this one to more complex menus with nested options.
+
 ### Chew the Byte
 1. Create a list of items on a restaurant menu. Display the menu as a numbered list and ask the user to pick an item. Then display the message. E.g. "You picked Fries!"
 2. Create a list of names of people. Display the names as a numbered list and ask the user to pick a name. Then print out the number of characters in the chosen name.
