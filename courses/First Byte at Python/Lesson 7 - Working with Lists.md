@@ -105,5 +105,26 @@ Your parents have asked you to create a shopping list manager to manage the week
 2. Write the appropriate code for each option. The program should keep asking the user for choices, add or remove items from the list and display the updated list after every change.
 3. When the user finally selects 3 (quit), display the final list and exit the program.
 
+Here is some start-up code:
+```python
+# Initialize an empty list to store the shopping items
+shopping_list = []
+
+# Print a welcome message and display the available options
+
+
+# Keep asking for choices until the user selects 'Quit'
+while True:
+    # Get user input and perform the corresponding action
+    
+
+    # Display the updated shopping list
+    print(f"Your shopping list: {shopping_list}\n")
+
+# Display the final shopping list and exit the program
+print(f"Final shopping list: {shopping_list}")
+print("Thank you for using the Shopping List Manager!")
+```
+
 # Conclusion
 In conclusion, you have learned how to work with lists in Python, including printing lists, adding and removing items, and selecting items from a list. Practice the exercises and work on the project to solidify your understanding of these concepts. Happy coding!
