@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Displaying a Menu.md",
+                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Displaying a Menu.md",
+                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Displaying a Menu.md",
+                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Displaying a Menu.md"
+                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md"
               }
             }
           },
@@ -192,7 +192,7 @@
   "active": "541def660b12f392",
   "lastOpenFiles": [
     "courses/First Byte at Python/Lesson 6 - Lists.md",
-    "courses/First Byte at Python/Lesson 7 - Displaying a Menu.md",
+    "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
     "courses/June 2023/Plan.md",
     "courses/First Byte at Python/Lesson 5 - The While Loop.md",
     "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
