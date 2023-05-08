@@ -28,9 +28,15 @@ items = ["Red", "Green", "Blue"]
 for index, item in enumerate(items):
     print(f"{index + 1}. {item}")
 ```
+
+> [!Indexes]
+> In Python, **indexes** are used to access specific items in a list. It is important to remember that Python counts indexes starting from **0**, while humans usually count starting from **1**. This means that the first item in the list has an index of 0, the second item has an index of 1, and so on. 
+> When working with lists in Python, it is important to keep this in mind and **make adjustments** when translating between the index values used by Python and the values we use to refer to items in the list. 
+> For example, if we want to access the first item in the list, we need to use an index of 0 instead of 1. Similarly, if we want to add or remove an item from a specific position in the list, we need to use the correct index value, which may require adding or subtracting 1 to account for the difference in counting between Python and humans.
+
 ### Chew the Byte
-1. Create a list of months of the year and print each month with its index on a separate line.
-2. Create a list of your siblings' names in order of age, the oldest first. Print each name with its index on a separate line.
+1. Create a list of months of the year and print each month with its number on a separate line.
+2. Create a list of your siblings' names in order of age, the oldest first. Print each name with its number on a separate line.
 
 ## Pick from a list of items
 ```python
