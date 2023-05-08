@@ -61,4 +61,26 @@ for index, item in enumerate(items):
 
 ### Exercises
 1. Create a list of 3 countries, then prompt the user to add another country. Then display the entire numbered list.
-2. 
+2. Create a list of 3 breeds of dogs, then prompt the user to add another dog breed. Then display the entire numbered list.
+
+## Remove an item from a list
+
+```python
+items = ["Red", "Green", "Blue"]
+
+print("Pick an item:")
+for index, item in enumerate(items):
+    print(f"{index + 1}. {item}")
+
+choice = int(input("Choice: "))
+
+if choice <= len(items):
+    items.pop(choice - 1)
+
+	# Print updated list
+	for index, item in enumerate(items):
+	    print(f"{index + 1}. {item}")
+else:
+    print(f"Invalid choice: {choice}")
+
+```
