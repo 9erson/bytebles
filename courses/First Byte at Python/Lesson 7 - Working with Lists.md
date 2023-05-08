@@ -29,6 +29,20 @@ for index, item in enumerate(items):
     print(f"{index + 1}. {item}")
 ```
 
+`enumerate()` is a Python built-in function that allows you to iterate over a list while keeping track of the index of the current item. 
+
+In the code above, `items` is a list of three strings. The `for` loop uses `enumerate()` to iterate over the items in the list and print each item along with its index. 
+
+The `for` loop assigns two variables (`index` and `item`) to each pair of values returned by `enumerate()`. The first value (`index`) is the index of the current item in the list, and the second value (`item`) is the current item itself. 
+
+The loop then prints a formatted string that includes the index (incremented by 1, since Python indexes start at 0) and the current item. This results in the following output:
+
+```
+1. Red
+2. Green
+3. Blue
+```
+
 > [!Indexes]
 > In Python, **indexes** are used to access specific items in a list. It is important to remember that Python counts indexes starting from **0**, while humans usually count starting from **1**. This means that the first item in the list has an index of 0, the second item has an index of 1, and so on. 
 > When working with lists in Python, it is important to keep this in mind and **make adjustments** when translating between the index values used by Python and the values we use to refer to items in the list. 
