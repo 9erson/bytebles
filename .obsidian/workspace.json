@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1143cc9d984d707",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +200,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "541def660b12f392",
+  "active": "d1143cc9d984d707",
   "lastOpenFiles": [
     "courses/First Byte at Python/Lesson 6 - Lists.md",
     "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
