@@ -1,5 +1,8 @@
 # Concepts
-## Validating Strings
+
+### Date Type
+
+## Validation
 ### Input shouldn't be blank
 ```python
 # Initial prompt
@@ -21,10 +24,23 @@ while len(new_password) < 15:
 	print("Password should be at least 15 characters long. Try again.")
 	new_password = input("New Password: ")
 ```
+### Number should be greater than 10
+
+```python
+num = input("Enter a number greater than 10: ")
+while len < 10:
+	print("Number should be greater than 10. Try again.")
+	new_password = input("Enter a number greater than 10: ")
+```
 
 ### Chew the Byte
 1. Prompt the user for a number between 10 and 20. If the user types any other number, show a validation message and prompt the user to try again. If the user types a number within the range, display `You typed {num}!`.
-2. Prompt the user to enter their canadian province. 
+2. Prompt the user to enter a valid province code. Show an error if the user types in a wrong code. Use this list:
+```python
+postal_codes = ['AB', 'BC', 'MB', 'NB', 'NL', 'NS', 'NT', 'NU', 'ON', 'PE', 'QC', 'SK', 'YT']
+```
+
+
 # Byte to Go
 Design a Python program for a hotel booking system that includes the following features:
 
