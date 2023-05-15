@@ -57,7 +57,7 @@ Here are some commonly used format codes:
 
 ### Chew the Byte
 1. Create a variable called `date_of_birth` and set it to your date of birth. Then print it using an appropriate message.
-2. Create 
+2. Prompt the user to enter any date using the yyyy-mm-dd format. Then display it using a more human readable format (January 1, 2023).
 
 ## Validation
 ### Input shouldn't be blank
@@ -96,7 +96,6 @@ while len < 10:
 ```python
 postal_codes = ['AB', 'BC', 'MB', 'NB', 'NL', 'NS', 'NT', 'NU', 'ON', 'PE', 'QC', 'SK', 'YT']
 ```
-
 
 # Byte to Go
 Design a Python program for a hotel booking system that includes the following features:
