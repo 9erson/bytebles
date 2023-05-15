@@ -1,6 +1,63 @@
 # Concepts
 
 ### Date Type
+In Python, the `date` type is part of the `datetime` module, which provides classes for manipulating dates and times. The `date` class provides various methods and attributes to work with dates (year, month, and day).
+
+Here's an example of creating a date object:
+```python
+from datetime import date
+
+# Create a date object with specific year, month, and day
+my_date = date(2021, 9, 15)
+
+print(my_date)  # Output: 2021-09-15
+```
+To get the current date, you can use the `today()` method:
+```python
+from datetime import date
+
+# Get the current date
+current_date = date.today()
+
+print(current_date)  # Output: The current date, e.g., 2023-05-15
+```
+To parse a date string, you can use the `strptime()` method from the `datetime` class. It takes two arguments: the date string and the format string:
+```python
+from datetime import datetime
+
+date_string = "15-05-2023"
+format_string = "%d-%m-%Y"
+
+parsed_date = datetime.strptime(date_string, format_string)
+
+print(parsed_date)  # Output: 2023-05-15 00:00:00
+```
+
+To format a date object as a string, use the `strftime()` method. It takes a format string and returns a formatted version of the date:
+
+```python
+from datetime import date
+
+my_date = date(2023, 5, 15)
+
+formatted_date = my_date.strftime("%B %d, %Y")
+
+print(formatted_date)  # Output: May 15, 2023
+```
+
+Here are some commonly used format codes:
+
+- `%Y`: Year with century (e.g., 2023)
+- `%m`: Month as a zero-padded decimal number (e.g., 05)
+- `%d`: Day of the month as a zero-padded decimal number (e.g., 15)
+- `%B`: Month as a full name (e.g., May)
+- `%b`: Month as an abbreviated name (e.g., May)
+- `%A`: Weekday as a full name (e.g., Monday)
+- `%a`: Weekday as an abbreviated name (e.g., Mon)
+
+### Chew the Byte
+1. Create a variable called `date_of_birth` and set it to your date of birth. Then print it using an appropriate message.
+2. Create 
 
 ## Validation
 ### Input shouldn't be blank
