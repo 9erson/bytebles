@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 6 - Lists.md",
+                "file": "courses/First Byte at Python/Lesson 8 - Validation.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,19 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d1143cc9d984d707",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.8"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "88349a4ceb499007",
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
+                "file": "courses/First Byte at Python/Lesson 8 - Validation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
+                "file": "courses/First Byte at Python/Lesson 8 - Validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "courses/First Byte at Python/Lesson 7 - Working with Lists.md"
+                "file": "courses/First Byte at Python/Lesson 8 - Validation.md"
               }
             }
           },
@@ -200,10 +188,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1143cc9d984d707",
+  "active": "e353972921f68a79",
   "lastOpenFiles": [
-    "courses/First Byte at Python/Lesson 6 - Lists.md",
     "courses/First Byte at Python/Lesson 7 - Working with Lists.md",
+    "courses/First Byte at Python/Lesson 8 - Validation.md",
+    "courses/First Byte at Python/Lesson 6 - Lists.md",
     "courses/June 2023/Plan.md",
     "courses/First Byte at Python/Lesson 5 - The While Loop.md",
     "courses/First Byte at Python/Lesson 4 - Data Types and Expressions - A Deep Dive.md",
