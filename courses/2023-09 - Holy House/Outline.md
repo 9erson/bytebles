@@ -3,11 +3,11 @@ Unit 1: Getting Started with Operating Systems
 -   Lesson 2: Navigating the File System  
 
 Unit 2: Python Basics - Part 1  
--   Lesson 1: Python Setup and Syntax  
--   Lesson 2: Python Data Types and Variables  
--   Lesson 3: Control Structures and Functions  
--   Lesson 4: Understanding the IPO Model  
--   Project 1: Simple Python Application  
+-   Lesson 1: Python Setup and Syntax
+-   Lesson 2: Python Data Types and Variables
+-   Lesson 3: Control Structures and Functions
+-   Lesson 4: Understanding the IPO Model
+-   Project 1: Simple Python Application
 
 Unit 3: Python Basics - Part 2
 -   Lesson 1: Lists, Tuples, and Dictionaries  
