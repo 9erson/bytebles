@@ -1,0 +1,18 @@
+- Data types
+	- String
+	- Integer
+	- Float
+	- Boolean
+	- Lists
+	- Dictionaries
+	- Classes
+	- Tuple
+- Functions
+	- Built-in
+		- Calling functions
+		- Print
+		- Input
+		- Casting functions
+			- str
+			- int
+	- 
