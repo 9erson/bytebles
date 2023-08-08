@@ -61,6 +61,8 @@ Unit 1: Getting Started with Operating Systems
 		- Graphical
 		- Text based / Command line
 	- Recycle bin
+	- Mouse vs Keyboard vs touch navigation
+	- Accessibility 
 - Lesson 2: Navigating the File System
 	- Differences between Mac and Windows
 	- Unix
@@ -71,7 +73,7 @@ Unit 1: Getting Started with Operating Systems
 		- Letters in Windows
 		- Mounted in Unix
 	- Documents
-	- 
+	- Files and Folders
 
 Unit 2: Python Basics - Part 1  
 -   Lesson 1: Python Setup and Syntax
