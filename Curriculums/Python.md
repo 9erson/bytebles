@@ -33,7 +33,10 @@
 	- break
 - Classes
 - Error handling
+- Validation
 - Debugging
+- IDEs
+	- 
 - Logging
 - File handling
 	- Read
