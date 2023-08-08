@@ -86,7 +86,7 @@ Unit 1: Getting Started with Operating Systems
 		- One Drive
 		- iCloud
 
-Unit 2: Python Basics - Part 1  
+Unit 2: Python Basics - Part 1
 -   Lesson 1: Python Setup and Syntax
 -   Lesson 2: Python Data Types and Variables
 -   Lesson 3: Control Structures and Functions
