@@ -15,4 +15,13 @@
 		- Casting functions
 			- str
 			- int
-	- 
+	- import
+		- math.round
+		- math.ceil
+		- math.floor
+		- random
+- Import
+- Decisions
+- Loops
+- Classes
+- 
