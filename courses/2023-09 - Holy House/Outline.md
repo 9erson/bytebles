@@ -48,6 +48,9 @@ Unit 1: Getting Started with Operating Systems
 	- Our focus
 		- MacOS
 		- Windows
+	- The Cloud as an operating system
+		- Benefits
+			- Cross platform
 	- Booting
 	- Applications
 	- Application Launcher
@@ -71,9 +74,17 @@ Unit 1: Getting Started with Operating Systems
 	- Root folder
 	- Drives
 		- Letters in Windows
+			- c:
+			- a:, b:
+			- d:, e:, etc
 		- Mounted in Unix
 	- Documents
 	- Files and Folders
+	- Cloud accounts
+		- Google drive
+		- Dropbox
+		- One Drive
+		- iCloud
 
 Unit 2: Python Basics - Part 1  
 -   Lesson 1: Python Setup and Syntax
