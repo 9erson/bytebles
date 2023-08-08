@@ -22,6 +22,30 @@
 		- random
 - Import
 - Decisions
+	- if
+	- else
+	- elif
 - Loops
+	- For loop
+	- For in loop
+	- While loop
+	- Infinite loop
+	- break
 - Classes
-- 
+- Error handling
+- Debugging
+- Logging
+- File handling
+	- Read
+	- Write
+	- CSV
+- HTTP requests
+	- Get
+	- Post
+	- API
+- Databases
+	- Relational databases
+		- SQLite
+	- NoSQL databases
+- Web design
+- Desktop application
