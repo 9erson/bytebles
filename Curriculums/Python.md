@@ -36,7 +36,6 @@
 - Validation
 - Debugging
 - IDEs
-	- 
 - File handling
 	- Read
 	- Write
