@@ -26,8 +26,8 @@
 	- else
 	- elif
 - Loops
-	- For loop
 	- For in loop
+	- For loop
 	- While loop
 	- Infinite loop
 	- break
@@ -37,11 +37,11 @@
 - Debugging
 - IDEs
 	- 
-- Logging
 - File handling
 	- Read
 	- Write
 	- CSV
+- Logging
 - HTTP requests
 	- Get
 	- Post
@@ -52,3 +52,9 @@
 	- NoSQL databases
 - Web design
 - Desktop application
+- Modules
+- PIP
+- Image processing
+- AI
+	- ChatGPT
+- Jupyter Notebooks
