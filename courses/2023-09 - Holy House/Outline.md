@@ -1,6 +1,77 @@
 Unit 1: Getting Started with Operating Systems  
--   Lesson 1: Introduction to Operating Systems 
--   Lesson 2: Navigating the File System  
+-   Lesson 1: Introduction to Operating Systems
+	- What is an Operating System?
+	- Popular Operating Systems
+		- Desktop
+			- Microsoft Windows
+				- PCs
+				- Microsoft
+			- MacOS
+				- Apple
+				- iMac
+				- Mac mini
+				- MacBooks
+			- Linux
+				- PCs
+		- Tablet
+			- iPadOS
+				- Apple
+			- Android
+				- Google
+			- Kindle Fire (based on Android)
+				- Amazon
+			- Windows
+				- Microsoft
+				- Surface Pros
+		- Phone
+			- iOS
+				- Apple
+				- iPhone
+			- Android
+				- Software - Google
+				- Hardware
+					- Google
+					- Samsung
+					- Motorola
+					- etc.
+			- Discontinued
+				- Blackberry
+					- RIM (Research in Motion)
+				- Windows
+					- Microsoft
+		- Smart Watch
+			- WatchOS
+				- Apple
+			- Tizen
+				- Samsung Galaxy
+			- 
+	- Our focus
+		- MacOS
+		- Windows
+	- Booting
+	- Applications
+	- Application Launcher
+		- Graphical
+		- Keyboard
+	- OS Configuration
+	- Desktop
+	- Users
+	- System updates
+	- File explorer
+		- Graphical
+		- Text based / Command line
+	- Recycle bin
+- Lesson 2: Navigating the File System
+	- Differences between Mac and Windows
+	- Unix
+		- Mac
+		- Linux
+	- Root folder
+	- Drives
+		- Letters in Windows
+		- Mounted in Unix
+	- Documents
+	- 
 
 Unit 2: Python Basics - Part 1  
 -   Lesson 1: Python Setup and Syntax
