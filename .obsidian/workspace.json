@@ -201,10 +201,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bdfcf5cb5140bfd6",
+  "active": "b8fbef25214a328d",
   "lastOpenFiles": [
-    "Curriculums/Python.md",
     "courses/2023-09 - Holy House/Outline.md",
+    "courses/2023-09 - Holy House/Untitled.md",
+    "Curriculums/Python.md",
     "Curriculums",
     "README.md",
     "courses/Archived",
@@ -239,7 +240,6 @@
     "courses/Archived/2023-04 - Wisdom - First Byte at Python/Answer Key.md",
     "How to join my class in Teams.md",
     "How to Install Microsoft Teams on Windows and Mac.md",
-    "How to install Thonny.md",
-    "link to the Teams session.md"
+    "How to install Thonny.md"
   ]
 }
