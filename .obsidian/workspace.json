@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86dead4552ab9bbb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.11"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +211,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8fbef25214a328d",
+  "active": "86dead4552ab9bbb",
   "lastOpenFiles": [
     "courses/2023-09 - Holy House/Outline.md",
     "courses/2023-09 - Holy House/Untitled.md",
